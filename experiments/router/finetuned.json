@@ -1,0 +1,112 @@
+{
+  "accuracy": 0.9753086419753086,
+  "macro_precision": 0.9770021645021645,
+  "macro_recall": 0.975297619047619,
+  "macro_f1": 0.9754041857775028,
+  "per_intent_f1": {
+    "FACT_LOOKUP": 0.9473684210526315,
+    "TECHNOLOGY_COMPARISON": 1.0,
+    "LITERATURE_REVIEW": 1.0,
+    "TECHNICAL_DEEP_DIVE": 0.9743589743589743,
+    "COMPETITIVE_INTELLIGENCE": 0.9523809523809523,
+    "MARKET_RESEARCH": 0.9523809523809523,
+    "RESEARCH_MONITORING": 1.0,
+    "GENERAL_RESEARCH": 0.9767441860465116
+  },
+  "emergency_recall": null,
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      19,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      21
+    ]
+  ],
+  "n": 162,
+  "model": "setfit fine-tuned MiniLM",
+  "split": "test",
+  "seed": 42,
+  "train_seconds": 771.3746153569955,
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

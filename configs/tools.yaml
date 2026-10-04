@@ -1,0 +1,27 @@
+# mode: live = real network APIs; fixture = canned corpus under fixtures_dir (CI, tests). Replay is a per-run Recorder mode.
+mode: fixture              # override per process with RESEARCH_OS_TOOLS=live|fixture
+fixtures_dir: tests/fixtures/corpus
+http:
+  timeout_s: 10
+  max_redirects: 3
+  max_bytes: 2000000
+  user_agent: "ResearchOS/0.1 (research assistant; polite bot)"
+limits:
+  max_content_chars: 20000
+  max_results: 10
+web_search: {provider: tavily, api_key_env: TAVILY_API_KEY, endpoint: "https://api.tavily.com/search"}
+github: {token_env: GITHUB_TOKEN, endpoint: "https://api.github.com"}
+arxiv: {endpoint: "https://export.arxiv.org/api/query"}
+pubmed: {endpoint: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils", api_key_env: NCBI_API_KEY}
+registry: {default_timeout_s: 15, max_retries: 2, backoff_s: 0.5, retry_on: [SEARCH_TIMEOUT, TOOL_FAILURE]}
+permissions:             # which agents may use tools carrying each permission
+  search_agent: [research]
+  source_agent: [research]
+  evidence_agent: []
+  verifier: []
+  synthesis_agent: []
+  supervisor: [memory]
+  planner: [memory]
+policy:
+  allowed_domains: []    # empty = any public host; otherwise fetch_url only allows these hosts (and subdomains)
+  blocked_domains: []

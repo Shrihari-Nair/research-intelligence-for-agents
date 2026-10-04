@@ -1,0 +1,120 @@
+{
+  "llm_backend": "gemini",
+  "threshold": 0.5,
+  "emergency_floor": 0.3,
+  "pricing_per_mtok_note": "configurable, not authoritative",
+  "pricing_per_mtok": {
+    "input": 0.3,
+    "output": 2.5
+  },
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 4,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  },
+  "test": {
+    "llm_only": {
+      "accuracy": 0.9848484848484849,
+      "macro_f1": 0.9848281926406927,
+      "emergency_recall": 1.0,
+      "p50_ms": 1137.9185004989267,
+      "p95_ms": 1306.7609340585477,
+      "cpu_ms_per_request": 5.494523090909109,
+      "cpu_utilization_pct": 0.48077036095747055,
+      "cost_per_request": 0.00012515151515151516,
+      "llm_calls": 132,
+      "llm_failures": 0,
+      "n": 132
+    },
+    "minilm_only": {
+      "accuracy": 0.9924242424242424,
+      "macro_f1": 0.9923963133640553,
+      "emergency_recall": 1.0,
+      "p50_ms": 7.895247501437552,
+      "p95_ms": 11.88532464657328,
+      "cpu_ms_per_request": 35.48857493939394,
+      "cpu_utilization_pct": 398.0736214955047,
+      "cost_per_request": 0.0,
+      "llm_calls": 0,
+      "llm_failures": 0,
+      "n": 132
+    },
+    "hybrid": {
+      "accuracy": 0.9924242424242424,
+      "macro_f1": 0.9923963133640553,
+      "emergency_recall": 1.0,
+      "p50_ms": 11.020341007679235,
+      "p95_ms": 12.459085450245762,
+      "cpu_ms_per_request": 44.49938077272728,
+      "cpu_utilization_pct": 399.43825021641567,
+      "cost_per_request": 0.0,
+      "llm_calls": 0,
+      "llm_failures": 0,
+      "n": 132
+    }
+  },
+  "hard_test": {
+    "llm_only": {
+      "accuracy": 0.9285714285714286,
+      "macro_f1": 0.9197691197691198,
+      "emergency_recall": 1.0,
+      "p50_ms": 1212.0159104961203,
+      "p95_ms": 1447.2936399906757,
+      "cpu_ms_per_request": 4.750888375000008,
+      "cpu_utilization_pct": 0.38870491847447053,
+      "cost_per_request": 0.00012840892857142856,
+      "llm_calls": 56,
+      "llm_failures": 0,
+      "n": 56
+    },
+    "minilm_only": {
+      "accuracy": 0.8035714285714286,
+      "macro_f1": 0.7786546786546786,
+      "emergency_recall": 0.875,
+      "p50_ms": 12.063956004567444,
+      "p95_ms": 13.692573749722214,
+      "cpu_ms_per_request": 49.362060178571426,
+      "cpu_utilization_pct": 397.80178986314974,
+      "cost_per_request": 0.0,
+      "llm_calls": 0,
+      "llm_failures": 0,
+      "n": 56
+    },
+    "hybrid": {
+      "accuracy": 0.875,
+      "macro_f1": 0.864360102263328,
+      "emergency_recall": 0.875,
+      "p50_ms": 12.475465504394379,
+      "p95_ms": 1138.6103224976978,
+      "cpu_ms_per_request": 55.379575749999965,
+      "cpu_utilization_pct": 41.688009830666644,
+      "cost_per_request": 1.3830357142857143e-05,
+      "llm_calls": 6,
+      "llm_failures": 0,
+      "n": 56
+    }
+  },
+  "e2e": {
+    "llm_only": {
+      "task_success": 1.0,
+      "n": 40,
+      "p50_ms": 1252.4078935020952,
+      "p95_ms": 1349.3842089446844
+    },
+    "minilm_only": {
+      "task_success": 0.925,
+      "n": 40,
+      "p50_ms": 12.188284497824498,
+      "p95_ms": 18.08441645189305
+    },
+    "hybrid": {
+      "task_success": 0.925,
+      "n": 40,
+      "p50_ms": 12.743285493343137,
+      "p95_ms": 17.782935944705965
+    }
+  }
+}

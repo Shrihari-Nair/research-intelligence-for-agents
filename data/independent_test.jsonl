@@ -1,0 +1,104 @@
+{"text": "how many tokens can GPT-4 Turbo take as input", "intent": "FACT_LOOKUP"}
+{"text": "when did the EU AI Act come into force", "intent": "FACT_LOOKUP"}
+{"text": "Which programming language is the Linux kernel mostly written in?", "intent": "FACT_LOOKUP"}
+{"text": "um what's the latest stable version of postgres right now", "intent": "FACT_LOOKUP"}
+{"text": "Is Kubernetes a CNCF graduated project?", "intent": "FACT_LOOKUP"}
+{"text": "who is the current CEO of Nvidia", "intent": "FACT_LOOKUP"}
+{"text": "How many parameters does Llama 2 70B have?", "intent": "FACT_LOOKUP"}
+{"text": "what year was the transformer paper published", "intent": "FACT_LOOKUP"}
+{"text": "What is the default TTL for a DNS record in AWS Route 53?", "intent": "FACT_LOOKUP"}
+{"text": "does SQLite support full text search natively", "intent": "FACT_LOOKUP"}
+{"text": "Which company acquired GitHub in 2018?", "intent": "FACT_LOOKUP"}
+{"text": "hey quick question what port does https use by default", "intent": "FACT_LOOKUP"}
+{"text": "What is the speed of light in a vacuum in metres per second?", "intent": "FACT_LOOKUP"}
+{"text": "Kafka versus RabbitMQ for event streaming, which fits better?", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "compare pytorch lightning and hugging face trainer for finetuning", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "How does gRPC stack up against REST for internal microservice calls?", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "i need to pick between postgres and mongodb for a analytics workload what are the tradeoffs", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "Redis vs Memcached: differences in persistence and eviction", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "Compare Rust and Go for building command line tools.", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "so um terraform or pulumi for infrastructure as code", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "FAISS against Milvus for vector search at ten million vectors", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "What are the differences between OAuth 2.0 and OpenID Connect?", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "tensorflow lite vs onnx runtime on mobile", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "Next.js or Remix for a content heavy site?", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "Compare WebSockets, server sent events, and long polling for live updates", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "can you line up Airflow Dagster and Prefect side by side", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "Find recent papers on retrieval augmented generation evaluation", "intent": "LITERATURE_REVIEW"}
+{"text": "what does the research say about intermittent fasting and longevity", "intent": "LITERATURE_REVIEW"}
+{"text": "Survey the literature on federated learning for medical imaging", "intent": "LITERATURE_REVIEW"}
+{"text": "i need a few good review articles about graph neural networks", "intent": "LITERATURE_REVIEW"}
+{"text": "Summarize the state of the art in speech emotion recognition", "intent": "LITERATURE_REVIEW"}
+{"text": "What studies exist on the effect of remote work on productivity?", "intent": "LITERATURE_REVIEW"}
+{"text": "pull together the key papers on diffusion model distillation", "intent": "LITERATURE_REVIEW"}
+{"text": "Give me a literature overview of quantum error correction", "intent": "LITERATURE_REVIEW"}
+{"text": "are there any meta analyses on microplastics and human health", "intent": "LITERATURE_REVIEW"}
+{"text": "Which papers introduced low rank adaptation and what followed them?", "intent": "LITERATURE_REVIEW"}
+{"text": "show me the recent academic work on hallucination detection in language models", "intent": "LITERATURE_REVIEW"}
+{"text": "Review the research on sleep deprivation and memory consolidation.", "intent": "LITERATURE_REVIEW"}
+{"text": "um what has been published lately about solid state batteries", "intent": "LITERATURE_REVIEW"}
+{"text": "How does the Raft consensus algorithm handle leader election?", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "explain how flash attention reduces memory usage", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "Walk me through how a B-tree index is stored and searched in PostgreSQL.", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "how does git store objects internally", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "What happens inside the JVM when garbage collection runs with G1?", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "so how does tcp congestion control actually work", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "Explain how mixture of experts routing works in modern language models.", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "How does Kubernetes scheduling decide which node a pod lands on?", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "can you break down how the bloom filter in cassandra works", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "Describe the internals of the Linux completely fair scheduler.", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "how do transformers handle positional information", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "How does Rust's borrow checker enforce memory safety at compile time?", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "um how does public key infrastructure verify a certificate chain", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "which vendors does Snowflake mostly lose deals to", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "how does Notion position itself against Confluence and Coda", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "Analyze Stripe's competitive landscape in online payments.", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "what are Cloudflare's main rivals and where do they differ in offering", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "Which companies compete with Databricks in the lakehouse space?", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "Break down Figma's competitors and their pricing strategy", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "um who is going after Zoom's market share these days", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "Compare the product positioning of Shopify, BigCommerce and WooCommerce.", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "what is Palantir's competitive advantage over other analytics vendors", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "Map the competitors of OpenAI by product and target customer.", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "Who are Canva's biggest threats?", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "How do Slack and Microsoft Teams differentiate their enterprise offerings?", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "tell me who competes with Tesla in the autonomous driving space and what they sell", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "How large is the global cybersecurity market and how fast is it growing?", "intent": "MARKET_RESEARCH"}
+{"text": "what is the forecast for the electric vehicle charging market through 2030", "intent": "MARKET_RESEARCH"}
+{"text": "Estimate the size of the generative AI software market.", "intent": "MARKET_RESEARCH"}
+{"text": "um how much do companies spend on cloud infrastructure each year", "intent": "MARKET_RESEARCH"}
+{"text": "What are the adoption trends for low code platforms in enterprises?", "intent": "MARKET_RESEARCH"}
+{"text": "Give me market size figures for the telehealth industry", "intent": "MARKET_RESEARCH"}
+{"text": "what is the projected cagr of the edge computing market", "intent": "MARKET_RESEARCH"}
+{"text": "How big is the market for wearable health devices?", "intent": "MARKET_RESEARCH"}
+{"text": "Pricing trends in the vector database market over the last two years", "intent": "MARKET_RESEARCH"}
+{"text": "what share of enterprises use kubernetes in production", "intent": "MARKET_RESEARCH"}
+{"text": "Size and growth of the global e-commerce logistics market?", "intent": "MARKET_RESEARCH"}
+{"text": "How fast is the synthetic data market expanding?", "intent": "MARKET_RESEARCH"}
+{"text": "so what's the total addressable market for voice assistants in cars", "intent": "MARKET_RESEARCH"}
+{"text": "Keep an eye on new releases of the LangChain library and tell me when something changes", "intent": "RESEARCH_MONITORING"}
+{"text": "monitor arxiv for new papers on mixture of experts", "intent": "RESEARCH_MONITORING"}
+{"text": "Notify me whenever Anthropic publishes a new model announcement.", "intent": "RESEARCH_MONITORING"}
+{"text": "um can you track funding rounds for AI chip startups going forward", "intent": "RESEARCH_MONITORING"}
+{"text": "Watch the Rust release notes and alert me to breaking changes", "intent": "RESEARCH_MONITORING"}
+{"text": "Every week send me updates on new vector database benchmarks", "intent": "RESEARCH_MONITORING"}
+{"text": "follow news about the EU data act for me", "intent": "RESEARCH_MONITORING"}
+{"text": "Set up tracking for new open source LLM evaluation frameworks", "intent": "RESEARCH_MONITORING"}
+{"text": "let me know when there are new CVEs affecting FastAPI", "intent": "RESEARCH_MONITORING"}
+{"text": "Keep monitoring competitor pricing pages for observability tools and flag changes", "intent": "RESEARCH_MONITORING"}
+{"text": "please keep me posted on developments in nuclear fusion startups", "intent": "RESEARCH_MONITORING"}
+{"text": "Track mentions of our product category on Hacker News each day", "intent": "RESEARCH_MONITORING"}
+{"text": "alert me if new regulation on facial recognition gets proposed in Europe", "intent": "RESEARCH_MONITORING"}
+{"text": "Tell me about the history of the Transformer architecture", "intent": "GENERAL_RESEARCH"}
+{"text": "what's the latest on quantum computing", "intent": "GENERAL_RESEARCH"}
+{"text": "Give me an overview of zero trust security.", "intent": "GENERAL_RESEARCH"}
+{"text": "i want to learn about retrieval augmented generation where do i start", "intent": "GENERAL_RESEARCH"}
+{"text": "What is going on with open source large language models lately?", "intent": "GENERAL_RESEARCH"}
+{"text": "Research the impact of tariffs on semiconductor supply chains.", "intent": "GENERAL_RESEARCH"}
+{"text": "um tell me everything about WebAssembly", "intent": "GENERAL_RESEARCH"}
+{"text": "Explore the pros and cons of microservices architecture in general", "intent": "GENERAL_RESEARCH"}
+{"text": "What should I know about edge AI?", "intent": "GENERAL_RESEARCH"}
+{"text": "recent developments in battery recycling", "intent": "GENERAL_RESEARCH"}
+{"text": "Help me understand the landscape of AI regulation worldwide.", "intent": "GENERAL_RESEARCH"}
+{"text": "overview of homomorphic encryption and where it is used", "intent": "GENERAL_RESEARCH"}
+{"text": "tell me about the rise of small language models", "intent": "GENERAL_RESEARCH"}

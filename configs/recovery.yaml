@@ -1,0 +1,20 @@
+# Failure recovery policy. Each failure type maps to an ordered list of actions; the n-th failure of a step takes the n-th action.
+# Past the end of the list the step is terminated. Recovery attempts consume budget (every re-run counts as a step).
+limits: {max_per_step: 4, max_per_run: 12, max_replans: 1}
+# alternate tools tried (in order) by the `alternate_tool` action
+alternates:
+  web_search: [github_search, arxiv_search]
+  github_search: [web_search]
+  arxiv_search: [pubmed_search, web_search]
+  pubmed_search: [arxiv_search, web_search]
+  fetch_url: [web_search]
+policy:
+  SEARCH_TIMEOUT: [retry, alternate_tool, terminate_step]
+  INVALID_SOURCE: [skip_source, alternate_tool, terminate_step]
+  MALFORMED_LLM_OUTPUT: [retry_with_error, terminate_step]
+  NO_USEFUL_SOURCES: [broaden_query, alternate_tool, replan, ask_user]
+  CONFLICTING_EVIDENCE: [proceed]
+  TOOL_FAILURE: [retry, alternate_tool, terminate_step]
+  AGENT_FAILURE: [retry, skip_step]
+  BUDGET_EXHAUSTED: [terminate_safely]
+  IMPOSSIBLE_PLAN: [replan, terminate_safely]

@@ -1,0 +1,21 @@
+[tool.ruff]
+line-length = 160
+target-version = "py310"
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+[tool.ruff.lint.per-file-ignores]
+"evaluation/report_results.py" = ["E501"]
+"evaluation/metrics.py" = ["E501"]
+"evaluation/failure_injection.py" = ["E501"]
+"tests/unit/test_failure_scenarios.py" = ["E501"]
+"tests/unit/test_approvals.py" = ["E501"]
+"tests/unit/test_voice_m24.py" = ["E501"]
+"scripts/render_results.py" = ["E501"]
+"evaluation/export_gold_candidates.py" = ["E501"]
+"tests/unit/test_replay_cli.py" = ["E501"]
+"tests/unit/test_render_results.py" = ["E501"]
+"tests/unit/test_eval_judges.py" = ["E501"]
+[tool.pytest.ini_options]
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+markers = ["slow: trains a model"]

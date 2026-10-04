@@ -1,0 +1,43 @@
+{
+ "task_id": "t017",
+ "recorded_at": "2026-10-02T16:03:00.643602+00:00",
+ "status": "PARTIAL",
+ "workflow": "technology_comparison",
+ "router_intent": "TECHNOLOGY_COMPARISON",
+ "failures": [
+  [
+   "verify",
+   "MALFORMED_LLM_OUTPUT"
+  ],
+  [
+   "verify",
+   "MALFORMED_LLM_OUTPUT"
+  ]
+ ],
+ "recoveries": [
+  [
+   "verify",
+   "retry_with_error"
+  ],
+  [
+   "verify",
+   "terminate_step"
+  ]
+ ],
+ "halted_reason": null,
+ "n_sources": 18,
+ "budget": {
+  "steps": 8,
+  "tool_calls": 10,
+  "searches": 4,
+  "llm_calls": 8,
+  "elapsed_seconds": 35.28399609398912,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

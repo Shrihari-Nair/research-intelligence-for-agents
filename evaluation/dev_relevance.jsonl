@@ -1,0 +1,20 @@
+{"question": "What license does LangGraph use?", "answer_terms": ["MIT"]}
+{"question": "What license does PyTorch use?", "answer_terms": ["BSD"]}
+{"question": "What license does TensorFlow use?", "answer_terms": ["Apache"]}
+{"question": "Who created the Rust programming language?", "answer_terms": ["Graydon Hoare"]}
+{"question": "What license does the Linux kernel use?", "answer_terms": ["GPL", "General Public License"]}
+{"question": "When was Python 3.0 released?", "answer_terms": ["2008"]}
+{"question": "Which company develops React?", "answer_terms": ["Meta", "Facebook"]}
+{"question": "Which company originally developed Kubernetes?", "answer_terms": ["Google"]}
+{"question": "What license does Apache Kafka use?", "answer_terms": ["Apache License", "Apache 2"]}
+{"question": "What is the default port of PostgreSQL?", "answer_terms": ["5432"]}
+{"question": "What is the default port of Redis?", "answer_terms": ["6379"]}
+{"question": "What programming language is Kubernetes written in?", "answer_terms": ["Go"]}
+{"question": "Who created Git?", "answer_terms": ["Linus Torvalds"]}
+{"question": "What license does FastAPI use?", "answer_terms": ["MIT"]}
+{"question": "When was Docker first released?", "answer_terms": ["2013"]}
+{"question": "What is the default port of MongoDB?", "answer_terms": ["27017"]}
+{"question": "Who created the Python programming language?", "answer_terms": ["Guido"]}
+{"question": "What license does Next.js use?", "answer_terms": ["MIT"]}
+{"question": "Which company created TypeScript?", "answer_terms": ["Microsoft"]}
+{"question": "What database does Langfuse use for analytics?", "answer_terms": ["ClickHouse"]}

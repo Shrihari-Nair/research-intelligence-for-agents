@@ -1,0 +1,154 @@
+{
+  "results": {
+    "10": {
+      "effective_per_intent": 10,
+      "accuracy_mean": 0.8737373737373737,
+      "accuracy_std": 0.021723043603642977,
+      "macro_f1_mean": 0.8713757359753251,
+      "macro_f1_std": 0.02228417237794151,
+      "emergency_recall_mean": 0.9215686274509803,
+      "emergency_recall_std": 0.027729677693590107,
+      "train_seconds_mean": 53.6631052736678,
+      "train_seconds_std": 22.456604757968716,
+      "per_seed": [
+        {
+          "seed": 42,
+          "accuracy": 0.8712121212121212,
+          "macro_f1": 0.8694910875918778,
+          "emergency_recall": 0.9411764705882353,
+          "train_seconds": 41.43120317600551
+        },
+        {
+          "seed": 43,
+          "accuracy": 0.8484848484848485,
+          "macro_f1": 0.8450744814152072,
+          "emergency_recall": 0.8823529411764706,
+          "train_seconds": 34.39728975300386
+        },
+        {
+          "seed": 44,
+          "accuracy": 0.9015151515151515,
+          "macro_f1": 0.8995616389188904,
+          "emergency_recall": 0.9411764705882353,
+          "train_seconds": 85.16082289199403
+        }
+      ]
+    },
+    "25": {
+      "effective_per_intent": 25,
+      "accuracy_mean": 0.9494949494949495,
+      "accuracy_std": 0.018897259529161353,
+      "macro_f1_mean": 0.9492331773048092,
+      "macro_f1_std": 0.01908636138608789,
+      "emergency_recall_mean": 1.0,
+      "emergency_recall_std": 0.0,
+      "train_seconds_mean": 62.154755859664874,
+      "train_seconds_std": 2.1286534026253356,
+      "per_seed": [
+        {
+          "seed": 42,
+          "accuracy": 0.9696969696969697,
+          "macro_f1": 0.9689191017316018,
+          "emergency_recall": 1.0,
+          "train_seconds": 65.16438023099909
+        },
+        {
+          "seed": 43,
+          "accuracy": 0.9242424242424242,
+          "macro_f1": 0.9233970268214813,
+          "emergency_recall": 1.0,
+          "train_seconds": 60.70798521400138
+        },
+        {
+          "seed": 44,
+          "accuracy": 0.9545454545454546,
+          "macro_f1": 0.9553834033613445,
+          "emergency_recall": 1.0,
+          "train_seconds": 60.591902133994154
+        }
+      ]
+    },
+    "50": {
+      "effective_per_intent": 50,
+      "accuracy_mean": 0.9696969696969697,
+      "accuracy_std": 0.016365506814161247,
+      "macro_f1_mean": 0.9697429377013105,
+      "macro_f1_std": 0.016486066845383274,
+      "emergency_recall_mean": 1.0,
+      "emergency_recall_std": 0.0,
+      "train_seconds_mean": 137.93636404400362,
+      "train_seconds_std": 16.179716585076925,
+      "per_seed": [
+        {
+          "seed": 42,
+          "accuracy": 0.9772727272727273,
+          "macro_f1": 0.9776393689196109,
+          "emergency_recall": 1.0,
+          "train_seconds": 137.80124709400116
+        },
+        {
+          "seed": 43,
+          "accuracy": 0.946969696969697,
+          "macro_f1": 0.9467968174562102,
+          "emergency_recall": 1.0,
+          "train_seconds": 157.8196019349998
+        },
+        {
+          "seed": 44,
+          "accuracy": 0.9848484848484849,
+          "macro_f1": 0.9847926267281106,
+          "emergency_recall": 1.0,
+          "train_seconds": 118.18824310300988
+        }
+      ]
+    },
+    "75": {
+      "effective_per_intent": 75,
+      "accuracy_mean": 0.98989898989899,
+      "accuracy_std": 0.003571246369629025,
+      "macro_f1_mean": 0.9899432109109529,
+      "macro_f1_std": 0.003469210759068191,
+      "emergency_recall_mean": 1.0,
+      "emergency_recall_std": 0.0,
+      "train_seconds_mean": 171.71049720666392,
+      "train_seconds_std": 2.5824835758589644,
+      "per_seed": [
+        {
+          "seed": 42,
+          "accuracy": 0.9848484848484849,
+          "macro_f1": 0.985037006004748,
+          "emergency_recall": 1.0,
+          "train_seconds": 171.40445108700078
+        },
+        {
+          "seed": 43,
+          "accuracy": 0.9924242424242424,
+          "macro_f1": 0.9923963133640553,
+          "emergency_recall": 1.0,
+          "train_seconds": 168.71176139899762
+        },
+        {
+          "seed": 44,
+          "accuracy": 0.9924242424242424,
+          "macro_f1": 0.9923963133640553,
+          "emergency_recall": 1.0,
+          "train_seconds": 175.01527913399332
+        }
+      ]
+    }
+  },
+  "setfit": {
+    "batch_size": 16,
+    "num_epochs": 1,
+    "num_iterations": 5,
+    "learning_rate": 2e-05
+  },
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

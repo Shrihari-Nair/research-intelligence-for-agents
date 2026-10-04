@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "per_intent_cap": 135,
+  "total": 1080,
+  "near_duplicates_removed": 9,
+  "rows_removed_for_hard_test_overlap": 1,
+  "llm_rows_dropped_by_label_cues": {
+    "LITERATURE_REVIEW": 8
+  },
+  "per_intent": {
+    "FACT_LOOKUP": {
+      "llm": 69,
+      "template": 66
+    },
+    "TECHNOLOGY_COMPARISON": {
+      "llm": 71,
+      "template": 64
+    },
+    "LITERATURE_REVIEW": {
+      "llm": 67,
+      "template": 68
+    },
+    "TECHNICAL_DEEP_DIVE": {
+      "llm": 71,
+      "template": 64
+    },
+    "COMPETITIVE_INTELLIGENCE": {
+      "llm": 71,
+      "template": 64
+    },
+    "MARKET_RESEARCH": {
+      "llm": 71,
+      "template": 64
+    },
+    "RESEARCH_MONITORING": {
+      "llm": 71,
+      "template": 64
+    },
+    "GENERAL_RESEARCH": {
+      "llm": 70,
+      "template": 65
+    }
+  },
+  "split_sizes": {
+    "train": 756,
+    "validation": 162,
+    "test": 162,
+    "hard_test": 63
+  }
+}

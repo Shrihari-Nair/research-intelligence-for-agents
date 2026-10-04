@@ -1,0 +1,35 @@
+{
+ "task_id": "t081",
+ "recorded_at": "2026-10-02T16:12:02.934687+00:00",
+ "status": "PARTIAL",
+ "workflow": "market_research",
+ "router_intent": "MARKET_RESEARCH",
+ "failures": [
+  [
+   "verify",
+   "NO_USEFUL_SOURCES"
+  ]
+ ],
+ "recoveries": [
+  [
+   "verify",
+   "ask_user"
+  ]
+ ],
+ "halted_reason": "no useful sources; user input requested",
+ "n_sources": 15,
+ "budget": {
+  "steps": 8,
+  "tool_calls": 8,
+  "searches": 2,
+  "llm_calls": 3,
+  "elapsed_seconds": 21.05494126098347,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

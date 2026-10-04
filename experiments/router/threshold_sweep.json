@@ -1,0 +1,92 @@
+{
+  "split": "val",
+  "sweep": [
+    {
+      "threshold": 0.3,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9876543209876543,
+      "n_covered": 162
+    },
+    {
+      "threshold": 0.35,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9876543209876543,
+      "n_covered": 162
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9876543209876543,
+      "n_covered": 162
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9876543209876543,
+      "n_covered": 162
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.9938271604938271,
+      "covered_accuracy": 0.9875776397515528,
+      "n_covered": 161
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.9876543209876543,
+      "covered_accuracy": 0.99375,
+      "n_covered": 160
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.9691358024691358,
+      "covered_accuracy": 1.0,
+      "n_covered": 157
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.9629629629629629,
+      "covered_accuracy": 1.0,
+      "n_covered": 156
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.9506172839506173,
+      "covered_accuracy": 1.0,
+      "n_covered": 154
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.9382716049382716,
+      "covered_accuracy": 1.0,
+      "n_covered": 152
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.9259259259259259,
+      "covered_accuracy": 1.0,
+      "n_covered": 150
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.9135802469135802,
+      "covered_accuracy": 1.0,
+      "n_covered": 148
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.8765432098765432,
+      "covered_accuracy": 1.0,
+      "n_covered": 142
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.4876543209876543,
+      "covered_accuracy": 1.0,
+      "n_covered": 79
+    }
+  ],
+  "chosen_threshold": 0.6,
+  "rule": "smallest threshold with covered accuracy >= 1.0 on val",
+  "target_covered_accuracy": 1.0
+}

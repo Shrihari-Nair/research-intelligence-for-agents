@@ -1,0 +1,132 @@
+{
+  "train_seconds": 214.37118643098802,
+  "num_iterations": 5,
+  "num_epochs": 1,
+  "seed": 42,
+  "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "n_train": 616,
+  "val_metrics": {
+    "accuracy": 0.9924242424242424,
+    "macro_precision": 0.9930555555555556,
+    "macro_recall": 0.9926470588235294,
+    "macro_f1": 0.9926406926406927,
+    "per_intent_f1": {
+      "BOOK_APPOINTMENT": 1.0,
+      "RESCHEDULE_APPOINTMENT": 0.9696969696969697,
+      "CANCEL_APPOINTMENT": 0.9714285714285714,
+      "PRESCRIPTION_QUERY": 1.0,
+      "FOLLOWUP_QUERY": 1.0,
+      "MEDICAL_RESEARCH": 1.0,
+      "GENERAL_QUERY": 1.0,
+      "EMERGENCY": 1.0
+    },
+    "emergency_recall": 1.0,
+    "confusion_matrix": [
+      [
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        16,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        17,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        17,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        16
+      ]
+    ],
+    "n": 132
+  },
+  "tuning_grid_on_val": [
+    {
+      "num_iterations": 5,
+      "num_epochs": 1,
+      "val_macro_f1": 0.9926406926406927,
+      "val_accuracy": 0.9924242424242424,
+      "train_seconds": 210.62917004300107
+    },
+    {
+      "num_iterations": 10,
+      "num_epochs": 1,
+      "val_macro_f1": 0.9926406926406927,
+      "val_accuracy": 0.9924242424242424,
+      "train_seconds": 409.258250977
+    }
+  ],
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

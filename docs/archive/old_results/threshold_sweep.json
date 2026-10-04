@@ -1,0 +1,92 @@
+{
+  "split": "val",
+  "sweep": [
+    {
+      "threshold": 0.3,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9924242424242424,
+      "n_covered": 132
+    },
+    {
+      "threshold": 0.35,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9924242424242424,
+      "n_covered": 132
+    },
+    {
+      "threshold": 0.4,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9924242424242424,
+      "n_covered": 132
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 1.0,
+      "covered_accuracy": 0.9924242424242424,
+      "n_covered": 132
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.9924242424242424,
+      "covered_accuracy": 1.0,
+      "n_covered": 131
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.9924242424242424,
+      "covered_accuracy": 1.0,
+      "n_covered": 131
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.9924242424242424,
+      "covered_accuracy": 1.0,
+      "n_covered": 131
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.9924242424242424,
+      "covered_accuracy": 1.0,
+      "n_covered": 131
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.9772727272727273,
+      "covered_accuracy": 1.0,
+      "n_covered": 129
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.9696969696969697,
+      "covered_accuracy": 1.0,
+      "n_covered": 128
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.946969696969697,
+      "covered_accuracy": 1.0,
+      "n_covered": 125
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.9242424242424242,
+      "covered_accuracy": 1.0,
+      "n_covered": 122
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.8409090909090909,
+      "covered_accuracy": 1.0,
+      "n_covered": 111
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.08333333333333333,
+      "covered_accuracy": 1.0,
+      "n_covered": 11
+    }
+  ],
+  "chosen_threshold": 0.5,
+  "rule": "smallest threshold with covered accuracy >= 1.0 on val",
+  "target_covered_accuracy": 1.0
+}

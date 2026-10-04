@@ -1,0 +1,131 @@
+# One workflow per router intent.
+#  steps: templates the planner instantiates (M10). `per: technologies|companies|topics` expands one step per extracted
+#         entity (falling back to a single step on the request text). depends_on names TEMPLATE step ids: a per-step depends on
+#         the same entity's instance when the dependency is also per-entity, otherwise on the single step; a non-per step
+#         depending on a per-step depends on all of its instances.
+#  allowed_source_types: types the verifier accepts for claims; required_source_types: at least one used source must have
+#         one of these types for the run to count as complete.
+#  min_supported_claims / max_unsupported_rate: verifier gate thresholds (M12). require_dates: sources must carry dates.
+planner:
+  refine: false              # one optional bounded LLM call may add retrieval steps (validated); off by default
+  max_extra_steps: 2
+  cost_model:                # estimates feeding approvals (M22); derived from the plan, never invented per run
+    results_per_search: 5
+    fetches_per_read_step: 3
+    llm_calls_per_step: {search_agent: 0, source_agent: 0, evidence_agent: 1, verifier: 2, synthesis_agent: 1}
+workflows:
+  fact_lookup:
+    intent: FACT_LOOKUP
+    description: One concrete, checkable fact (a date, version, number, name, license, yes/no).
+    budget_profile: small
+    allowed_source_types: [documentation, repository, paper, news, blog, forum, other]
+    required_source_types: []
+    min_supported_claims: 1
+    max_unsupported_rate: 0.5
+    steps:
+      - {id: search, agent: search_agent, tools: [web_search, github_search], depends_on: [], objective: "Find authoritative sources that state the fact asked in: {request}"}
+      - {id: read, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Read the top sources and extract passages that answer: {request}"}
+      - {id: extract, agent: evidence_agent, tools: [], depends_on: [read], objective: "Turn the passages into atomic claims with verbatim evidence quotes"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify every claim against its quoted evidence"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Write a short answer from verified claims only"}
+  technology_comparison:
+    intent: TECHNOLOGY_COMPARISON
+    description: Compare two or more named technologies along technical dimensions.
+    budget_profile: medium
+    allowed_source_types: [documentation, repository, paper, blog, news, forum]
+    required_source_types: [documentation, repository]    # a project README counts as primary documentation
+    min_supported_claims: 2
+    max_unsupported_rate: 0.6
+    steps:
+      - {id: search, per: technologies, agent: search_agent, tools: [web_search, github_search], depends_on: [], objective: "Find primary documentation and repository information for {entity} (context: {request})"}
+      - {id: read, per: technologies, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Extract passages about {entity} relevant to: {request}"}
+      - {id: extract, per: technologies, agent: evidence_agent, tools: [], depends_on: [read], objective: "Extract claims about {entity} with verbatim quotes, per comparison dimension"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify claims; flag conflicts between sources"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Compare the technologies per dimension using verified claims only"}
+  literature_review:
+    intent: LITERATURE_REVIEW
+    description: Papers, surveys and what the research says about a topic.
+    budget_profile: large
+    allowed_source_types: [paper]
+    required_source_types: [paper]
+    min_supported_claims: 3
+    max_unsupported_rate: 0.5
+    steps:
+      - {id: search, agent: search_agent, tools: [arxiv_search, pubmed_search], depends_on: [], objective: "Find recent and relevant papers for: {request}"}
+      - {id: screen, agent: source_agent, tools: [], depends_on: [search], objective: "Screen papers for relevance and extract key passages"}
+      - {id: extract, agent: evidence_agent, tools: [], depends_on: [screen], objective: "Extract findings with verbatim quotes from the abstracts"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify claims against quotes"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Group verified findings by theme and summarize"}
+  technical_deep_dive:
+    intent: TECHNICAL_DEEP_DIVE
+    description: How one technology, system or algorithm works internally.
+    budget_profile: medium
+    allowed_source_types: [documentation, repository, paper, blog]
+    required_source_types: [documentation, repository]
+    min_supported_claims: 2
+    max_unsupported_rate: 0.5
+    steps:
+      - {id: search, agent: search_agent, tools: [web_search, github_search, arxiv_search], depends_on: [], objective: "Find documentation, repository information and papers explaining: {request}"}
+      - {id: read, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Extract architecture and mechanism passages for: {request}"}
+      - {id: extract, agent: evidence_agent, tools: [], depends_on: [read], objective: "Extract claims about the mechanism with verbatim quotes"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify claims against quotes"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Explain the design using verified claims only"}
+  competitive_intelligence:
+    intent: COMPETITIVE_INTELLIGENCE
+    description: Companies and products in a market, their competitors, positioning, pricing and strategy.
+    budget_profile: large
+    allowed_source_types: [news, blog, documentation, other]
+    required_source_types: []
+    min_supported_claims: 2
+    max_unsupported_rate: 0.6
+    steps:
+      - {id: search, per: companies, agent: search_agent, tools: [web_search], depends_on: [], objective: "Find recent information about {entity} and its competitors (context: {request})"}
+      - {id: read, per: companies, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Extract passages about {entity}'s products, pricing and positioning"}
+      - {id: extract, per: companies, agent: evidence_agent, tools: [], depends_on: [read], objective: "Extract claims about {entity} with verbatim quotes"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify claims; flag conflicts"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Profile each company and compare, using verified claims only"}
+  market_research:
+    intent: MARKET_RESEARCH
+    description: Market size, growth, trends, adoption, pricing and forecasts, with dated figures.
+    budget_profile: medium
+    allowed_source_types: [news, blog, documentation, paper, other]
+    required_source_types: [news]
+    require_dates: true
+    min_supported_claims: 2
+    max_unsupported_rate: 0.5
+    steps:
+      - {id: search, agent: search_agent, tools: [web_search], depends_on: [], objective: "Find market reports and news with dated figures for: {request}"}
+      - {id: read, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Extract figures with their dates and units for: {request}"}
+      - {id: extract, agent: evidence_agent, tools: [], depends_on: [read], objective: "Extract figure claims, each with a date, using verbatim quotes"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify figures and require dated sources"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Summarize size, growth and trends with dates, verified claims only"}
+  research_monitoring:
+    intent: RESEARCH_MONITORING
+    description: Ongoing monitoring; this runs one pass for recent developments since a date (no scheduler).
+    budget_profile: medium
+    allowed_source_types: [documentation, repository, paper, news, blog, other]
+    required_source_types: []
+    require_dates: true
+    recent: true
+    min_supported_claims: 1
+    max_unsupported_rate: 0.6
+    steps:
+      - {id: search, agent: search_agent, tools: [web_search, arxiv_search, github_search], depends_on: [], objective: "Find the most recent developments (newest first) for: {request}"}
+      - {id: read, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Extract what is new, with dates, for: {request}"}
+      - {id: extract, agent: evidence_agent, tools: [], depends_on: [read], objective: "Extract dated claims with verbatim quotes"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify claims and dates"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "List new developments by date using verified claims only"}
+  general_research:
+    intent: GENERAL_RESEARCH
+    description: Open-ended exploration, "tell me about X", a one-off "latest on X", anything research-shaped.
+    budget_profile: medium
+    allowed_source_types: [documentation, repository, paper, news, blog, forum, other]
+    required_source_types: []
+    min_supported_claims: 2
+    max_unsupported_rate: 0.6
+    steps:
+      - {id: search, agent: search_agent, tools: [web_search, github_search], depends_on: [], objective: "Find good sources for: {request}"}
+      - {id: read, agent: source_agent, tools: [fetch_url], depends_on: [search], objective: "Extract passages relevant to: {request}"}
+      - {id: extract, agent: evidence_agent, tools: [], depends_on: [read], objective: "Extract claims with verbatim quotes"}
+      - {id: verify, agent: verifier, tools: [], depends_on: [extract], objective: "Verify claims against quotes"}
+      - {id: synthesize, agent: synthesis_agent, tools: [], depends_on: [verify], objective: "Write an overview from verified claims only"}

@@ -1,0 +1,25 @@
+{
+ "task_id": "t096",
+ "recorded_at": "2026-10-02T16:14:07.168035+00:00",
+ "status": "SUCCESS",
+ "workflow": "research_monitoring",
+ "router_intent": "RESEARCH_MONITORING",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 5,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 6,
+  "searches": 3,
+  "llm_calls": 3,
+  "elapsed_seconds": 14.791474276018562,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

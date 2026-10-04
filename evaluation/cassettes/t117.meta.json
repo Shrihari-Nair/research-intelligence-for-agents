@@ -1,0 +1,25 @@
+{
+ "task_id": "t117",
+ "recorded_at": "2026-10-02T16:16:41.941891+00:00",
+ "status": "SUCCESS",
+ "workflow": "general_research",
+ "router_intent": "GENERAL_RESEARCH",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 10,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 5,
+  "searches": 2,
+  "llm_calls": 3,
+  "elapsed_seconds": 28.109395016013877,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

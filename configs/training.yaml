@@ -1,0 +1,45 @@
+seed: 42
+base_model: sentence-transformers/all-MiniLM-L6-v2
+data:
+  domain: research
+  template_per_intent: 70
+  max_per_intent: 135
+  llm_examples_dir: data/examples
+  hard_test: data/hard_test.jsonl
+  near_duplicate_jaccard: 0.9
+paths:
+  intents: configs/intents.yaml
+  raw: data/examples
+  processed: data
+  model: models/router
+  baseline_model: models/baseline_research
+  results: experiments/router
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+setfit:
+  batch_size: 16
+  num_epochs: 1
+  num_iterations: 10
+  learning_rate: 2.0e-05
+tuning:
+  num_iterations:
+  - 5
+  - 10
+  num_epochs:
+  - 1
+ablation:
+  sizes:
+  - 10
+  - 25
+  - 50
+  - 80
+  seeds:
+  - 42
+  - 43
+  - 44
+benchmark:
+  threads: 4
+  warmup: 50
+  runs: 1000

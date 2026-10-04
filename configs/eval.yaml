@@ -1,0 +1,17 @@
+seed: 42
+systems: [A, B, C, D]
+ablations: [D-no-verifier, D-no-recovery, D-no-budgets]    # each removes ONE component from D
+thresholds:                       # end-to-end task success = completion AND these
+  min_citation_correctness: 0.8
+  max_unsupported_rate: 0.2
+judge: {batch_size: 10, max_evidence_per_run: 30, max_sources_per_run: 10}
+pricing_per_mtok: {input: 0.30, output: 2.50}     # configurable, NOT authoritative (USD per 1M tokens)
+bootstrap: {n: 1000, confidence: 0.95}
+paths:
+  tasks: evaluation/dataset/tasks.jsonl
+  gold_claims: evaluation/dataset/gold_claims.jsonl
+  cassettes: evaluation/cassettes
+  llm_cache: evaluation/cassettes/llm_cache.jsonl
+  judge_cache: evaluation/cassettes/judge_cache.jsonl
+  runs: experiments/results/runs
+  results: experiments/results

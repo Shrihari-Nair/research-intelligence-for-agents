@@ -1,0 +1,25 @@
+{
+ "task_id": "t004",
+ "recorded_at": "2026-10-02T16:01:15.744052+00:00",
+ "status": "SUCCESS",
+ "workflow": "fact_lookup",
+ "router_intent": "FACT_LOOKUP",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 10,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 5,
+  "searches": 2,
+  "llm_calls": 3,
+  "elapsed_seconds": 19.277412576018833,
+  "limits": {
+   "max_steps": 10,
+   "max_tool_calls": 14,
+   "max_searches": 4,
+   "max_llm_calls": 12,
+   "max_runtime_seconds": 120
+  }
+ }
+}

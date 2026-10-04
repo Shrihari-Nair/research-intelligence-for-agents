@@ -1,0 +1,25 @@
+{
+ "task_id": "t085",
+ "recorded_at": "2026-10-02T16:12:43.403391+00:00",
+ "status": "SUCCESS",
+ "workflow": "market_research",
+ "router_intent": "MARKET_RESEARCH",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 14,
+ "budget": {
+  "steps": 9,
+  "tool_calls": 8,
+  "searches": 2,
+  "llm_calls": 5,
+  "elapsed_seconds": 34.817921532987384,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

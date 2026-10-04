@@ -1,0 +1,23 @@
+{
+  "model": "baseline",
+  "fine_tuned": false,
+  "threads": 4,
+  "runs": 1000,
+  "warmup": 50,
+  "p50_ms": 12.692965006863233,
+  "p95_ms": 15.583496860199375,
+  "p99_ms": 17.38537515615462,
+  "mean_ms": 12.42808884466649,
+  "throughput_rps": 80.46289437568268,
+  "model_size_mb": 91.59170300000001,
+  "cpu_memory_mb": 583.12704,
+  "rss_delta_after_load_mb": 40.64870399999995,
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 4,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

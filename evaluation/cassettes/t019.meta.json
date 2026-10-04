@@ -1,0 +1,25 @@
+{
+ "task_id": "t019",
+ "recorded_at": "2026-10-02T16:03:35.927751+00:00",
+ "status": "SUCCESS",
+ "workflow": "technology_comparison",
+ "router_intent": "TECHNOLOGY_COMPARISON",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 16,
+ "budget": {
+  "steps": 8,
+  "tool_calls": 13,
+  "searches": 4,
+  "llm_calls": 5,
+  "elapsed_seconds": 31.013904555002227,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

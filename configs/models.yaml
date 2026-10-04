@@ -1,0 +1,13 @@
+# Role-based model names. Code asks for a role, never a model string.
+provider: gemini
+api_key_env: GOOGLE_API_KEY      # name of the env var (or .env entry); the key itself is never stored here
+timeout_s: 20
+roles:
+  router_fallback: gemini-2.5-flash
+  supervisor: gemini-2.5-flash
+  planner: gemini-2.5-flash
+  evidence: gemini-2.5-flash
+  verifier_judge: gemini-2.5-flash
+  synthesis: gemini-2.5-flash
+  data_generation: gemini-2.5-flash
+  eval_judge: gemini-3.5-flash     # a different model from verifier_judge (avoid self-grading); gemini-2.5-pro is closed to new users

@@ -1,0 +1,35 @@
+{
+ "task_id": "t052",
+ "recorded_at": "2026-10-02T16:08:19.965288+00:00",
+ "status": "PARTIAL",
+ "workflow": "technical_deep_dive",
+ "router_intent": "TECHNICAL_DEEP_DIVE",
+ "failures": [
+  [
+   "verify",
+   "NO_USEFUL_SOURCES"
+  ]
+ ],
+ "recoveries": [
+  [
+   "verify",
+   "ask_user"
+  ]
+ ],
+ "halted_reason": "no useful sources; user input requested",
+ "n_sources": 23,
+ "budget": {
+  "steps": 8,
+  "tool_calls": 11,
+  "searches": 8,
+  "llm_calls": 4,
+  "elapsed_seconds": 27.431191993004177,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

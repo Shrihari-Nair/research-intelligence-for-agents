@@ -1,0 +1,37 @@
+{
+  "runs": 1000,
+  "warmup": 50,
+  "predict_only": {
+    "p50_ms": 12.068891992385034,
+    "p95_ms": 15.702806603803763,
+    "p99_ms": 16.886886479333043,
+    "mean_ms": 11.860876522041508,
+    "throughput_rps": 84.31080098858317
+  },
+  "entities_only": {
+    "p50_ms": 0.36992049717810005,
+    "p95_ms": 0.6941742918570526,
+    "p99_ms": 0.8197444883990102,
+    "mean_ms": 0.40322752016072627,
+    "throughput_rps": 2479.989460048264
+  },
+  "full_route": {
+    "p50_ms": 12.552103005873505,
+    "p95_ms": 15.508203195349777,
+    "p99_ms": 17.160412780067418,
+    "mean_ms": 12.162030065708677,
+    "throughput_rps": 82.22311526918021
+  },
+  "p50_overhead_ms": 0.4832110134884715,
+  "p95_overhead_ms": -0.19460340845398605,
+  "threads": 4,
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 4,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  },
+  "threshold": 0.6
+}

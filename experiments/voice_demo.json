@@ -1,0 +1,10 @@
+{
+  "question_spoken": "What license does LangGraph use?",
+  "agent_heard_run": "f47a283b3aa8",
+  "run_status": "SUCCESS",
+  "agent_spoken_text": "LangGraph is an open-source library released under the MIT License. It is free to use and provides a framework for building AI agents. The full report with sources is in your run history.",
+  "caller_received_transcript": "Langgraph is an open-source library released under the MIT license. It is free to use and provides a framework for building AI agents. The full report with sources is in your run history.",
+  "caller_received_audio_seconds": 11.9,
+  "seconds_to_spoken_reply": 46.3,
+  "livekit_url": "ws://localhost:7880"
+}

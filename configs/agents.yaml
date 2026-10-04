@@ -1,0 +1,5 @@
+search:   {max_sources: 6, max_results_per_tool: 5}
+source:   {fetch_top: 3, min_snippet_chars_for_fetch: 1500, passages_per_source: 3, passage_chars: 500, max_passages: 12}
+evidence: {batch_chars: 6000, max_batches: 2, max_quote_chars: 300, max_claims_per_batch: 8, max_output_tokens: 6000}
+synthesis: {max_findings: 12, max_output_tokens: 4096}
+verifier: {judge_batch_size: 8, max_judge_batches: 4, max_conflict_checks: 6}

@@ -1,0 +1,35 @@
+{
+ "task_id": "t024",
+ "recorded_at": "2026-10-02T16:04:48.373713+00:00",
+ "status": "PARTIAL",
+ "workflow": "technology_comparison",
+ "router_intent": "TECHNOLOGY_COMPARISON",
+ "failures": [
+  [
+   "search:dagster",
+   "BUDGET_EXHAUSTED"
+  ]
+ ],
+ "recoveries": [
+  [
+   "search:dagster",
+   "terminate_safely"
+  ]
+ ],
+ "halted_reason": "budget exhausted: budget exhausted: searches limit 8 reached (used 8)",
+ "n_sources": 6,
+ "budget": {
+  "steps": 3,
+  "tool_calls": 8,
+  "searches": 8,
+  "llm_calls": 0,
+  "elapsed_seconds": 8.444891432009172,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

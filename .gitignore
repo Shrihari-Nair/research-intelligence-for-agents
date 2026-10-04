@@ -1,0 +1,111 @@
+# ============================================================
+# SECRETS: never commit these. Only .env.example (empty values) is tracked.
+# ============================================================
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+**/.env
+**/.env.*
+!**/.env.example
+docker/langfuse/.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+id_ed25519*
+*.secret
+*.secrets
+secrets/
+secrets.json
+credentials.json
+service-account*.json
+*-credentials.json
+.netrc
+.npmrc
+.pypirc
+.aws/
+.gcloud/
+.ssh/
+
+# ============================================================
+# Local runtime data (run history, recordings, databases, logs)
+# ============================================================
+runs/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.log
+logs/
+*.rdb
+.superpowers/
+
+# ============================================================
+# Model weights and training output (large; regenerate with `make train`)
+# ============================================================
+/models/
+/checkpoints/
+**/checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+*.ckpt
+.cache/
+.hf/
+huggingface/
+
+# ============================================================
+# Python
+# ============================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ============================================================
+# Frontend (Next.js / Playwright)
+# ============================================================
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts
+frontend/*.tsbuildinfo
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# ============================================================
+# Editors, OS, temp
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.tmp
+tmp/
+docs/demo/tmp/

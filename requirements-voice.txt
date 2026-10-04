@@ -1,0 +1,3 @@
+# Optional voice stack (stretch goal). Core project does not need these.
+livekit
+livekit-api

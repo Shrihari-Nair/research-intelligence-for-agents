@@ -1,0 +1,57 @@
+text,intent
+I have an appointment coming up but I'm not sure whether I should move it because my symptoms changed,RESCHEDULE_APPOINTMENT
+my appointment is next week but honestly the pain is getting worse so can we see someone sooner,RESCHEDULE_APPOINTMENT
+i booked thursday but i also have a meeting then is there any other slot,RESCHEDULE_APPOINTMENT
+could you shift my visit or if not just tell me what else is open,RESCHEDULE_APPOINTMENT
+i might not make my slot on friday so maybe a later time works better,RESCHEDULE_APPOINTMENT
+can i see dr patel for my follow up or is a new booking needed,BOOK_APPOINTMENT
+i finished the antibiotics and still feel off so i want to see someone about it,BOOK_APPOINTMENT
+my mother needs to see a heart specialist as soon as possible this month,BOOK_APPOINTMENT
+is there a doctor free tomorrow because i'd rather not wait for my regular one,BOOK_APPOINTMENT
+i want to come in to discuss my test results sometime next week,BOOK_APPOINTMENT
+i don't think i need to come in on monday anymore the rash is gone,CANCEL_APPOINTMENT
+if the doctor is away next week just take me off the list,CANCEL_APPOINTMENT
+my insurance fell through so i guess i can't keep the appointment,CANCEL_APPOINTMENT
+i'll sort it out elsewhere so you can release my slot with dr rao,CANCEL_APPOINTMENT
+please don't keep me for friday i found another clinic,CANCEL_APPOINTMENT
+the doctor said take the blue tablet but i forgot how often and also when to return,PRESCRIPTION_QUERY
+i ran out of my pills what was the dose again,PRESCRIPTION_QUERY
+can i take ibuprofen with what i was prescribed or should i ask about that later,PRESCRIPTION_QUERY
+what exactly did they put me on for my blood pressure last month,PRESCRIPTION_QUERY
+i'm confused about the two medicines i was given which one is for the cough,PRESCRIPTION_QUERY
+after the surgery how long before i see the surgeon again,FOLLOWUP_QUERY
+did the doctor want me back after the scan or was that optional,FOLLOWUP_QUERY
+i'm on the new tablets so when do they check if they work,FOLLOWUP_QUERY
+should i wait for the lab results before my next visit or come in anyway,FOLLOWUP_QUERY
+how many weeks until the doctor wants to look at my progress,FOLLOWUP_QUERY
+my doctor prescribed metformin but i read that new studies question it is that true,MEDICAL_RESEARCH
+i just got diagnosed with lupus what does current research say about outcomes,MEDICAL_RESEARCH
+are there any trials i could join for my condition,MEDICAL_RESEARCH
+i heard a new migraine injection came out how does it compare to what's used now,MEDICAL_RESEARCH
+what's the latest on statins and memory problems,MEDICAL_RESEARCH
+i'm curious how doctors diagnose celiac disease these days,MEDICAL_RESEARCH
+what can you actually do for me,GENERAL_QUERY
+do i need a referral and how much would it cost to see a specialist,GENERAL_QUERY
+can someone explain how your booking process works before i try it,GENERAL_QUERY
+is it safe to come in if i have a cold or should i stay home,GENERAL_QUERY
+do you treat children too or only adults,GENERAL_QUERY
+how does the clinic handle urgent cases outside working hours,GENERAL_QUERY
+my chest has been feeling tight since this morning and it's spreading to my left arm,EMERGENCY
+i feel dizzy and my speech is slurring and my face feels droopy,EMERGENCY
+my dad fell and hit his head and now he's confused and vomiting,EMERGENCY
+i don't know if this is serious but i can barely get air in,EMERGENCY
+my toddler drank some cleaning liquid and is coughing,EMERGENCY
+i've been feeling really low and i have a plan to hurt myself tonight,EMERGENCY
+there's blood everywhere after the cut and i feel faint,EMERGENCY
+i have an appointment tomorrow but right now my chest hurts badly,EMERGENCY
+my appointment is friday but my husband just stopped breathing,EMERGENCY
+i want to cancel my slot because i think i'm having a heart attack,EMERGENCY
+um so i think my friend took something and won't wake up,EMERGENCY
+i need to book a visit but first my vision just went completely black,EMERGENCY
+can you tell me when my follow up is also my arm is going numb and my chest is heavy,EMERGENCY
+i had a medicine reaction and my lips are swelling and i feel my throat closing,EMERGENCY
+what is the dosage for my tablets because i took six by mistake and feel strange,EMERGENCY
+i want to read about stroke symptoms because my face is drooping right now,EMERGENCY
+can i change my appointment i'm a bit worried about a mild headache,RESCHEDULE_APPOINTMENT
+tell me about the clinic and also what's the latest research on asthma inhalers,MEDICAL_RESEARCH
+which medicines should i not mix with alcohol according to recent studies,MEDICAL_RESEARCH

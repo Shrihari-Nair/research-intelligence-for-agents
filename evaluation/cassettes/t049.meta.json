@@ -1,0 +1,25 @@
+{
+ "task_id": "t049",
+ "recorded_at": "2026-10-02T16:08:03.364157+00:00",
+ "status": "SUCCESS",
+ "workflow": "technical_deep_dive",
+ "router_intent": "TECHNICAL_DEEP_DIVE",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 10,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 5,
+  "searches": 3,
+  "llm_calls": 3,
+  "elapsed_seconds": 16.60074931901181,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

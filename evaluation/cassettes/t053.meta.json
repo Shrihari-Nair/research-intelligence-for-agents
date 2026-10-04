@@ -1,0 +1,43 @@
+{
+ "task_id": "t053",
+ "recorded_at": "2026-10-02T16:08:35.262262+00:00",
+ "status": "PARTIAL",
+ "workflow": "technical_deep_dive",
+ "router_intent": "TECHNICAL_DEEP_DIVE",
+ "failures": [
+  [
+   "verify",
+   "MALFORMED_LLM_OUTPUT"
+  ],
+  [
+   "verify",
+   "MALFORMED_LLM_OUTPUT"
+  ]
+ ],
+ "recoveries": [
+  [
+   "verify",
+   "retry_with_error"
+  ],
+  [
+   "verify",
+   "terminate_step"
+  ]
+ ],
+ "halted_reason": null,
+ "n_sources": 5,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 8,
+  "searches": 5,
+  "llm_calls": 7,
+  "elapsed_seconds": 22.91921948597883,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

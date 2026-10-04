@@ -1,0 +1,43 @@
+{
+ "task_id": "t092",
+ "recorded_at": "2026-10-02T16:13:48.670649+00:00",
+ "status": "PARTIAL",
+ "workflow": "research_monitoring",
+ "router_intent": "RESEARCH_MONITORING",
+ "failures": [
+  [
+   "verify",
+   "MALFORMED_LLM_OUTPUT"
+  ],
+  [
+   "verify",
+   "MALFORMED_LLM_OUTPUT"
+  ]
+ ],
+ "recoveries": [
+  [
+   "verify",
+   "retry_with_error"
+  ],
+  [
+   "verify",
+   "terminate_step"
+  ]
+ ],
+ "halted_reason": null,
+ "n_sources": 14,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 4,
+  "searches": 3,
+  "llm_calls": 7,
+  "elapsed_seconds": 14.001882912009023,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

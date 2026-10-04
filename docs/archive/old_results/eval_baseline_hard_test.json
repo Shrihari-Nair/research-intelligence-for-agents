@@ -1,0 +1,111 @@
+{
+  "accuracy": 0.7678571428571429,
+  "macro_precision": 0.7875641923436041,
+  "macro_recall": 0.7447916666666667,
+  "macro_f1": 0.7488566988566989,
+  "per_intent_f1": {
+    "BOOK_APPOINTMENT": 0.6,
+    "RESCHEDULE_APPOINTMENT": 0.8,
+    "CANCEL_APPOINTMENT": 0.6666666666666666,
+    "PRESCRIPTION_QUERY": 0.7142857142857143,
+    "FOLLOWUP_QUERY": 0.8888888888888888,
+    "MEDICAL_RESEARCH": 0.8571428571428571,
+    "GENERAL_QUERY": 0.6153846153846154,
+    "EMERGENCY": 0.8484848484848485
+  },
+  "emergency_recall": 0.875,
+  "confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      4,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      6,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      14
+    ]
+  ],
+  "n": 56,
+  "model": "baseline",
+  "fine_tuned": false,
+  "split": "hard_test",
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

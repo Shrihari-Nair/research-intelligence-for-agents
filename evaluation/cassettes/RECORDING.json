@@ -1,0 +1,13 @@
+{
+ "recorded_with": "live tools (Tavily, GitHub, arXiv, PubMed, fetch_url) + Gemini",
+ "date": "2026-10-02",
+ "hardware": {
+  "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+  "cores": 12,
+  "ram_gb": 33.3,
+  "torch_version": "2.14.1+cpu",
+  "torch_threads": 10,
+  "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+ },
+ "note": "web content drifts; evaluation replays these frozen sources"
+}

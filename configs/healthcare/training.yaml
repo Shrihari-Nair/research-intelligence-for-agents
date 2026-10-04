@@ -1,0 +1,42 @@
+seed: 42
+base_model: sentence-transformers/all-MiniLM-L6-v2
+data:
+  domain: healthcare
+  per_intent: 110
+  hard_test: data/healthcare/hard_test.csv
+paths:
+  intents: configs/healthcare/intents.yaml
+  raw: data/healthcare/intents.csv
+  processed: data/healthcare/processed
+  model: models/healthcare_router
+  baseline_model: models/healthcare_baseline
+  results: results
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+setfit:
+  batch_size: 16
+  num_epochs: 1
+  num_iterations: 5
+  learning_rate: 2.0e-05
+tuning:
+  num_iterations:
+  - 5
+  - 10
+  num_epochs:
+  - 1
+ablation:
+  sizes:
+  - 10
+  - 25
+  - 50
+  - 75
+  seeds:
+  - 42
+  - 43
+  - 44
+benchmark:
+  threads: 4
+  warmup: 50
+  runs: 1000

@@ -1,0 +1,133 @@
+text,intent
+Remind me what pills I take in the morning.,PRESCRIPTION_QUERY
+Are there any breakthroughs in depression,MEDICAL_RESEARCH
+Book me a slot with Dr Iyer on the day after tomorrow.,BOOK_APPOINTMENT
+has anything changed in how ibs is treated recently when you get a chance,MEDICAL_RESEARCH
+are there any breakthroughs in type 2 diabetes,MEDICAL_RESEARCH
+Hello remind me what pills I take in the morning.,PRESCRIPTION_QUERY
+i just had chest pain out of nowhere,EMERGENCY
+Do you offer lab tests?,GENERAL_QUERY
+I need to know the medicine Dr Fernandes wrote for my IBS.,PRESCRIPTION_QUERY
+how often should i come for asthma monitoring asap,FOLLOWUP_QUERY
+please drop my after lunch appointment,CANCEL_APPOINTMENT
+Cancel everything I have booked with Dr Rao.,CANCEL_APPOINTMENT
+What are the side effects of insulin according to studies?,MEDICAL_RESEARCH
+any new research on asthma,MEDICAL_RESEARCH
+make me an appointment for july 2nd at first thing,BOOK_APPOINTMENT
+I'm having thoughts of ending my life asap,EMERGENCY
+Is there a physiotherapist at your clinic?,GENERAL_QUERY
+"I won't be able to come this evening, cancel it if that's okay",CANCEL_APPOINTMENT
+my heart is racing and i feel faint call someone,EMERGENCY
+Okay so I'm experiencing sudden vision loss and I'm scared.,EMERGENCY
+"work has been crazy, can my visit slide to next week",RESCHEDULE_APPOINTMENT
+Well summarize recent papers on thyroid disorder.,MEDICAL_RESEARCH
+find recent clinical trials for psoriasis if that's okay,MEDICAL_RESEARCH
+cancel my april 9 booking,CANCEL_APPOINTMENT
+Bring my appointment forward to Friday if possible.,RESCHEDULE_APPOINTMENT
+yeah when is my next checkup due,FOLLOWUP_QUERY
+is there a general physician at your clinic,GENERAL_QUERY
+hi there she is having heavy bleeding what do i do,EMERGENCY
+what's the strength of my atorvastatin,PRESCRIPTION_QUERY
+Reschedule me with Dr Singh to the day after tomorrow.,RESCHEDULE_APPOINTMENT
+Need an appointment with Dr Fernandes this Friday 2 pm,BOOK_APPOINTMENT
+I'd like to see a physiotherapist about my chronic back pain,BOOK_APPOINTMENT
+okay so i have heavy bleeding help me,EMERGENCY
+any openings with a eye doctor monday if possible,BOOK_APPOINTMENT
+bring my appointment forward to tuesday,RESCHEDULE_APPOINTMENT
+can i bring a family member with me,GENERAL_QUERY
+severe allergic reaction my throat is closing if possible,EMERGENCY
+Swap my appointment to tomorrow at 4 in the evening thanks,RESCHEDULE_APPOINTMENT
+It's an emergency I need help now thanks,EMERGENCY
+call off my visit the day after tomorrow,CANCEL_APPOINTMENT
+Can you read out my latest prescription thank you,PRESCRIPTION_QUERY
+do i need to come back for a checkup,FOLLOWUP_QUERY
+How long until I need to revisit Dr Patel?,FOLLOWUP_QUERY
+how do i reach you by public transport if that's okay,GENERAL_QUERY
+What is the dosage of atorvastatin I was given asap?,PRESCRIPTION_QUERY
+She is having a really high fever what do I do.,EMERGENCY
+Is there a new guideline for eczema,MEDICAL_RESEARCH
+is there any new evidence on vitamin d and depression,MEDICAL_RESEARCH
+swap my appointment to next monday at around noon,RESCHEDULE_APPOINTMENT
+okay so scrap my appointment i'm fine now,CANCEL_APPOINTMENT
+Change my appointment from next Monday to the 5th,RESCHEDULE_APPOINTMENT
+Yeah can I take a different slot with Dr Patel,RESCHEDULE_APPOINTMENT
+excuse me which specialists work here,GENERAL_QUERY
+I took too many pills I think I overdosed.,EMERGENCY
+which tablets am i supposed to take for psoriasis,PRESCRIPTION_QUERY
+"Hi, what should I bring to my first visit when you get a chance.",GENERAL_QUERY
+"Excuse me, cancel the 9 am slot",CANCEL_APPOINTMENT
+okay so what's your phone number,GENERAL_QUERY
+Okay so can you fit me in Wednesday.,BOOK_APPOINTMENT
+Is there a neurologist at your clinic?,GENERAL_QUERY
+"Excuse me, cancel my the 12th of next month booking.",CANCEL_APPOINTMENT
+"Excuse me, is cetirizine part of my prescription",PRESCRIPTION_QUERY
+what are the risk factors for arthritis,MEDICAL_RESEARCH
+okay so can i bring a family member with me if that's okay,GENERAL_QUERY
+How soon should I return after my high cholesterol treatment?,FOLLOWUP_QUERY
+So how soon should I return after my PCOS treatment asap.,FOLLOWUP_QUERY
+List my current medications thanks.,PRESCRIPTION_QUERY
+do you have a pharmacy on site asap,GENERAL_QUERY
+I have a seizure and my arm feels numb.,EMERGENCY
+hey my wife just collapsed,EMERGENCY
+What payment methods do you take?,GENERAL_QUERY
+can I bring a family member with me thanks,GENERAL_QUERY
+can I get a new appointment this Friday thanks,BOOK_APPOINTMENT
+reserve a slot tomorrow 11 am,BOOK_APPOINTMENT
+"I should probably get this mole checked, any chance of a visit",BOOK_APPOINTMENT
+Okay so remove my appointment on the 30th.,CANCEL_APPOINTMENT
+What's the strength of my paracetamol.,PRESCRIPTION_QUERY
+any new research on psoriasis,MEDICAL_RESEARCH
+How long do I have to continue atorvastatin,PRESCRIPTION_QUERY
+Is the clinic open on Sundays?,GENERAL_QUERY
+hey can we push my appointment to first thing,RESCHEDULE_APPOINTMENT
+Delete my booking for the day after tomorrow,CANCEL_APPOINTMENT
+unbook my slot with dr khan,CANCEL_APPOINTMENT
+uh i changed my mind cancel my visit,CANCEL_APPOINTMENT
+Get me in to see Dr Fernandes on the 12th of next month,BOOK_APPOINTMENT
+Change my appointment from this Friday to the 30th,RESCHEDULE_APPOINTMENT
+What's the strength of my metformin,PRESCRIPTION_QUERY
+someone is unconscious and not breathing,EMERGENCY
+tell me my follow up plan for arthritis,FOLLOWUP_QUERY
+Help I think I'm having a heart attack.,EMERGENCY
+Put me down for Dr Bose on Saturday,BOOK_APPOINTMENT
+hi what vaccines do you offer,GENERAL_QUERY
+set up an appointment for Friday at first thing,BOOK_APPOINTMENT
+I can't make it tomorrow can we do Tuesday instead,RESCHEDULE_APPOINTMENT
+"Hi there, what did Dr Singh say about my next visit",FOLLOWUP_QUERY
+can i get my visit moved to june 18,RESCHEDULE_APPOINTMENT
+Is there a new guideline for IBS?,MEDICAL_RESEARCH
+when do I need to get my blood test repeated thanks,FOLLOWUP_QUERY
+when do i need to see dr gupta again,FOLLOWUP_QUERY
+change my appointment from next week to the 12th of next month,RESCHEDULE_APPOINTMENT
+Uh is the clinic open on Sundays,GENERAL_QUERY
+hey I have chest pain and my arm feels numb asap,EMERGENCY
+is there a recheck after my dermatologist visit,FOLLOWUP_QUERY
+"good morning, I think I'm having a stroke",EMERGENCY
+well how many omeprazole tablets are left on my prescription please,PRESCRIPTION_QUERY
+i forgot my dosage for amoxicillin,PRESCRIPTION_QUERY
+How long do I have to continue omeprazole?,PRESCRIPTION_QUERY
+hey i no longer need the appointment with dr gupta thank you,CANCEL_APPOINTMENT
+Is a follow up needed for my depression?,FOLLOWUP_QUERY
+Can you rebook me for March 3rd instead,RESCHEDULE_APPOINTMENT
+good morning do i have to return for another review,FOLLOWUP_QUERY
+"I won't be able to come next Monday, cancel it",CANCEL_APPOINTMENT
+Is a follow up needed for my high cholesterol please?,FOLLOWUP_QUERY
+Compare amlodipine with other drugs for migraine.,MEDICAL_RESEARCH
+Hello is a follow up needed for my arthritis.,FOLLOWUP_QUERY
+uh I can't make it Friday can we do Monday instead,RESCHEDULE_APPOINTMENT
+call off my visit this evening,CANCEL_APPOINTMENT
+when's my next review with dr iyer,FOLLOWUP_QUERY
+what are the latest treatments for migraine,MEDICAL_RESEARCH
+what's the science behind intermittent fasting for blood pressure,MEDICAL_RESEARCH
+is dr mehta available wednesday at 9 am,BOOK_APPOINTMENT
+Find me literature on sleep apnea in women,MEDICAL_RESEARCH
+yeah what was i prescribed last visit,PRESCRIPTION_QUERY
+Hello what services do you provide,GENERAL_QUERY
+Set up an appointment for Friday at 2 pm thank you.,BOOK_APPOINTMENT
+I'd like to see a orthopedic specialist about my high cholesterol.,BOOK_APPOINTMENT
+okay so what was i prescribed last visit,PRESCRIPTION_QUERY
+need to postpone my appointment till Friday,RESCHEDULE_APPOINTMENT
+can i get a new appointment next week,BOOK_APPOINTMENT
+How often should I come for chronic back pain monitoring?,FOLLOWUP_QUERY
+"I changed my mind, cancel my visit thank you",CANCEL_APPOINTMENT
+So my baby is turning blue.,EMERGENCY

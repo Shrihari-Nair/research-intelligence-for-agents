@@ -1,0 +1,132 @@
+{
+  "train_seconds": 771.3746153569955,
+  "num_iterations": 10,
+  "num_epochs": 1,
+  "seed": 42,
+  "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "n_train": 756,
+  "val_metrics": {
+    "accuracy": 0.9876543209876543,
+    "macro_precision": 0.9880952380952381,
+    "macro_recall": 0.9875,
+    "macro_f1": 0.9873234916559692,
+    "per_intent_f1": {
+      "FACT_LOOKUP": 1.0,
+      "TECHNOLOGY_COMPARISON": 0.975609756097561,
+      "LITERATURE_REVIEW": 1.0,
+      "TECHNICAL_DEEP_DIVE": 1.0,
+      "COMPETITIVE_INTELLIGENCE": 0.9473684210526315,
+      "MARKET_RESEARCH": 0.975609756097561,
+      "RESEARCH_MONITORING": 1.0,
+      "GENERAL_RESEARCH": 1.0
+    },
+    "emergency_recall": null,
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        20,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        18,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        20
+      ]
+    ],
+    "n": 162
+  },
+  "tuning_grid_on_val": [
+    {
+      "num_iterations": 5,
+      "num_epochs": 1,
+      "val_macro_f1": 0.9747661424490692,
+      "val_accuracy": 0.9753086419753086,
+      "train_seconds": 363.979773834988
+    },
+    {
+      "num_iterations": 10,
+      "num_epochs": 1,
+      "val_macro_f1": 0.9873234916559692,
+      "val_accuracy": 0.9876543209876543,
+      "train_seconds": 742.9941719079943
+    }
+  ],
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

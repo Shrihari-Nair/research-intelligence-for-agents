@@ -1,0 +1,12 @@
+database_url_env: DATABASE_URL          # unset -> local SQLite file below
+sqlite_path: runs/research.db
+embedding_model: sentence-transformers/all-MiniLM-L6-v2   # same family as the router base; loaded once and shared
+reuse:
+  max_age_days: 30                      # prior findings older than this are never offered to the planner
+  min_similarity: 0.55
+  max_prior_findings: 8
+recall:
+  min_similarity: 0.60                  # a past question this similar counts as "we already researched this"
+  k: 5
+monitoring:
+  same_claim_similarity: 0.85           # claims at least this similar to a prior claim count as unchanged

@@ -1,0 +1,35 @@
+{
+ "task_id": "t043",
+ "recorded_at": "2026-10-02T16:07:19.360904+00:00",
+ "status": "PARTIAL",
+ "workflow": "literature_review",
+ "router_intent": "LITERATURE_REVIEW",
+ "failures": [
+  [
+   "verify",
+   "NO_USEFUL_SOURCES"
+  ]
+ ],
+ "recoveries": [
+  [
+   "verify",
+   "ask_user"
+  ]
+ ],
+ "halted_reason": "no useful sources; user input requested",
+ "n_sources": 11,
+ "budget": {
+  "steps": 8,
+  "tool_calls": 4,
+  "searches": 4,
+  "llm_calls": 4,
+  "elapsed_seconds": 18.33023900099215,
+  "limits": {
+   "max_steps": 28,
+   "max_tool_calls": 60,
+   "max_searches": 16,
+   "max_llm_calls": 45,
+   "max_runtime_seconds": 600
+  }
+ }
+}

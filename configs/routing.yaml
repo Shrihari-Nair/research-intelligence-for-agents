@@ -1,0 +1,11 @@
+threshold: 0.6
+threshold_rule: smallest threshold with covered accuracy >= 1.0 on val
+target_covered_accuracy: 1.0
+sweep:
+  low: 0.3
+  high: 0.95
+  step: 0.05
+max_text_chars: 2000
+pricing_per_mtok:
+  input: 0.3
+  output: 2.5

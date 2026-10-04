@@ -1,0 +1,74 @@
+# {{ r.question }}
+
+**Status:** {{ r.status }}{% if r.run_metadata.get("llm_backend") %} · **LLM:** {{ r.run_metadata.llm_backend }}{% endif %}{% if r.methodology.get("workflow") %} · **Workflow:** {{ r.methodology.workflow }}{% endif %}
+
+## Executive summary
+
+{{ r.executive_summary }}
+
+## Methodology
+
+{% if r.methodology.get("router_intent") -%}
+- Router: **{{ r.methodology.router_intent }}** (confidence {{ "%.2f"|format(r.methodology.router_confidence) }}, mode {{ r.methodology.router_mode }}{% if r.methodology.get("supervisor_llm_used") %}; supervisor used the LLM{% endif %})
+{% endif -%}
+{% if r.methodology.get("agents") -%}
+- Agents: {{ r.methodology.agents | join(", ") }}
+- Tools used: {{ (r.methodology.tools_used or ["none"]) | join(", ") }}
+{% endif -%}
+{% for s in r.methodology.get("plan", []) -%}
+- Step `{{ s.id }}` ({{ s.agent }}): {{ s.status }}{% if s.attempts > 1 %} after {{ s.attempts }} attempts{% endif %}
+{% endfor -%}
+{% if r.methodology.get("note") %}- {{ r.methodology.note }}
+{% endif %}
+## Findings
+
+{% for f in r.findings -%}
+- {{ f.statement }} {% for cid in f.claim_ids %}[{{ num[cid] }}]{% endfor %}
+{% else -%}
+_No verified findings._
+{% endfor %}
+{% if r.comparison %}
+## Comparison
+
+{% for row in r.comparison -%}
+### {{ row.entity }}
+
+{% for c in row.claims -%}
+- {{ c.statement }} [{{ num[c.claim_id] }}]
+{% endfor %}
+{% endfor %}{% endif %}
+{% if r.contradictions %}
+## Contradictions
+
+Sources disagree. Both sides are shown; neither is presented as a finding.
+
+{% for k in r.contradictions -%}
+### {{ k.subject }}
+
+{% for side in k.sides -%}
+**{{ side.stance }}**
+{% for c in side.claims -%}
+- {{ c.claim }} — “{{ c.evidence_quote }}” ([source]({{ c.source_url }}))
+{% endfor %}
+{% endfor %}{% endfor %}{% endif %}
+## Evidence
+
+{% for e in r.evidence -%}
+{{ num[e.claim_id] }}. **{{ e.claim }}** — “{{ e.evidence_quote }}” — {% set s = srcs[e.source_id] %}[{{ s.title }}]({{ s.url }}) ({{ s.source_type }}{% if s.published_at %}, {{ s.published_at[:10] }}{% endif %})
+{% else -%}
+_No verified evidence._
+{% endfor %}
+## Limitations
+
+{% for l in r.limitations -%}
+- {{ l }}
+{% endfor %}
+## Sources
+
+{% for s in r.sources -%}
+- [{{ s.title }}]({{ s.url }}) — {{ s.source_type }}{% if s.published_at %}, {{ s.published_at[:10] }}{% endif %}
+{% endfor %}
+{% if r.run_metadata.get("run_id") %}
+---
+_Run `{{ r.run_metadata.run_id }}` · generated {{ r.run_metadata.get("generated_at", "")[:19] }}_
+{% endif %}

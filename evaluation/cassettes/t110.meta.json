@@ -1,0 +1,25 @@
+{
+ "task_id": "t110",
+ "recorded_at": "2026-10-02T16:15:53.262058+00:00",
+ "status": "SUCCESS",
+ "workflow": "general_research",
+ "router_intent": "COMPETITIVE_INTELLIGENCE",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 10,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 4,
+  "searches": 2,
+  "llm_calls": 4,
+  "elapsed_seconds": 17.641699214000255,
+  "limits": {
+   "max_steps": 18,
+   "max_tool_calls": 30,
+   "max_searches": 8,
+   "max_llm_calls": 24,
+   "max_runtime_seconds": 300
+  }
+ }
+}

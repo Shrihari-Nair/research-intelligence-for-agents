@@ -1,0 +1,4 @@
+# Langfuse tracing is a NO-OP unless LANGFUSE_PUBLIC_KEY and LANGFUSE_SECRET_KEY are set (LANGFUSE_HOST for self-hosted).
+environment: dev
+capture_content: false      # metadata only: prompts/responses are NOT sent to Langfuse
+flush_on_run_end: true

@@ -1,0 +1,7 @@
+max_workers: 4
+runs_dir: runs
+llm: auto                  # auto = gemini when GOOGLE_API_KEY is set, otherwise the offline demo LLM; or demo | gemini
+cors_origins: ["http://localhost:3000"]
+max_text_chars: 2000
+budget_profiles: [small, medium, large]
+approvals: true             # pause expensive plans for human approval (thresholds in configs/budgets.yaml)

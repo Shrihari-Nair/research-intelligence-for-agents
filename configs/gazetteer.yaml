@@ -1,0 +1,309 @@
+# Deterministic entity gazetteer for research_os.router.entities (no LLM involved).
+# `exact_case: true` = the canonical name only matches with this exact capitalization (ambiguous English words);
+# aliases always match case-insensitively (spoken/STT text is lowercase).
+technologies:
+- name: LangGraph
+- name: CrewAI
+  aliases:
+  - crew ai
+- name: AutoGen
+  aliases:
+  - auto gen
+- name: LlamaIndex
+  aliases:
+  - llama index
+- name: LangChain
+  aliases:
+  - lang chain
+- name: PyTorch
+  aliases:
+  - torch
+- name: TensorFlow
+  aliases:
+  - tensor flow
+- name: JAX
+- name: Kubernetes
+  aliases:
+  - k8s
+- name: Docker Swarm
+- name: Nomad
+  exact_case: true
+- name: Kafka
+  aliases:
+  - apache kafka
+- name: Pulsar
+  aliases:
+  - apache pulsar
+- name: RabbitMQ
+  aliases:
+  - rabbit mq
+- name: PostgreSQL
+  aliases:
+  - postgres
+  - postgresql
+- name: MongoDB
+  aliases:
+  - mongo db
+- name: DuckDB
+  aliases:
+  - duck db
+- name: SQLite
+  aliases:
+  - sqlite3
+- name: Redis
+- name: Memcached
+- name: FastAPI
+  aliases:
+  - fast api
+- name: Flask
+- name: Django
+- name: Rust
+- name: Go
+  aliases:
+  - golang
+  exact_case: true
+- name: Zig
+- name: Qdrant
+- name: Pinecone
+- name: Weaviate
+- name: Milvus
+- name: pgvector
+  aliases:
+  - pg vector
+- name: Elasticsearch
+  aliases:
+  - elastic search
+- name: OpenSearch
+  aliases:
+  - open search
+- name: Terraform
+- name: Pulumi
+- name: GraphQL
+  aliases:
+  - graph ql
+- name: gRPC
+  aliases:
+  - grpc
+- name: WebAssembly
+  aliases:
+  - wasm
+- name: vLLM
+  aliases:
+  - v llm
+- name: TensorRT-LLM
+  aliases:
+  - tensorrt llm
+  - tensorrt-llm
+- name: Ollama
+- name: ONNX Runtime
+  aliases:
+  - onnx
+- name: Ray
+  exact_case: true
+- name: Dask
+- name: Spark
+  aliases:
+  - apache spark
+  - pyspark
+  exact_case: true
+- name: Airflow
+  aliases:
+  - apache airflow
+- name: Prefect
+- name: Dagster
+- name: dbt
+- name: React
+  aliases:
+  - reactjs
+  - react.js
+  exact_case: true
+- name: Svelte
+- name: Vue
+  aliases:
+  - vuejs
+  - vue.js
+- name: Next.js
+  aliases:
+  - nextjs
+  - next js
+- name: Tailwind
+  aliases:
+  - tailwind css
+- name: Langfuse
+- name: MLflow
+  aliases:
+  - ml flow
+- name: Weights & Biases
+  aliases:
+  - wandb
+  - weights and biases
+- name: Triton
+  aliases:
+  - triton inference server
+- name: Istio
+- name: Envoy
+- name: Cassandra
+  aliases:
+  - apache cassandra
+- name: ClickHouse
+  aliases:
+  - click house
+- name: Delta Lake
+- name: Apache Iceberg
+  aliases:
+  - iceberg
+- name: Hugging Face Transformers
+  aliases:
+  - transformers library
+- name: TGI
+  aliases:
+  - text generation inference
+- name: SetFit
+  aliases:
+  - set fit
+- name: Raft
+  exact_case: true
+- name: HNSW
+- name: BERT
+- name: GPT-4
+  aliases:
+  - gpt4
+- name: Claude
+- name: Llama
+  aliases:
+  - llama 3
+  - llama3
+- name: Mistral 7B
+- name: Whisper
+  exact_case: true
+- name: Python
+- name: TypeScript
+  aliases:
+  - type script
+- name: Java
+- name: Scala
+- name: Node.js
+  aliases:
+  - nodejs
+  - node js
+- name: NumPy
+  aliases:
+  - numpy
+- name: pandas
+- name: scikit-learn
+  aliases:
+  - sklearn
+  - scikit learn
+- name: OpenTelemetry
+  aliases:
+  - otel
+  - open telemetry
+- name: Prometheus
+- name: Grafana
+- name: SQLAlchemy
+  aliases:
+  - sql alchemy
+- name: Pydantic
+- name: Celery
+- name: Nginx
+- name: Terraform Cloud
+- name: ArgoCD
+  aliases:
+  - argo cd
+- name: Helm
+  exact_case: true
+- name: Linux
+- name: WebRTC
+  aliases:
+  - web rtc
+- name: LiveKit
+  aliases:
+  - live kit
+companies:
+- name: OpenAI
+  aliases:
+  - open ai
+- name: Anthropic
+- name: Google DeepMind
+  aliases:
+  - deepmind
+  - deep mind
+- name: Google
+  exact_case: true
+- name: Microsoft
+- name: Meta
+  exact_case: true
+- name: Amazon
+  aliases:
+  - aws
+- name: Mistral AI
+  aliases:
+  - mistral
+- name: Cohere
+- name: Databricks
+- name: Snowflake
+- name: Datadog
+  aliases:
+  - data dog
+- name: Grafana Labs
+- name: New Relic
+- name: HashiCorp
+  aliases:
+  - hashi corp
+- name: Vercel
+- name: Netlify
+- name: Stripe
+- name: Adyen
+- name: Notion
+  exact_case: true
+- name: Figma
+- name: Canva
+- name: Palantir
+- name: Scale AI
+  exact_case: true
+- name: Hugging Face
+  aliases:
+  - huggingface
+- name: Nvidia
+  aliases:
+  - nvidia
+- name: AMD
+- name: Intel
+  exact_case: true
+- name: Cerebras
+- name: Groq
+- name: Elastic
+  exact_case: true
+- name: MongoDB Inc
+- name: Confluent
+- name: Cloudflare
+- name: Fastly
+- name: Twilio
+- name: Zendesk
+- name: Shopify
+- name: Atlassian
+- name: Slack
+  exact_case: true
+- name: Salesforce
+- name: Oracle
+  exact_case: true
+- name: IBM
+- name: Apple
+  exact_case: true
+- name: Tesla
+- name: Zoom
+  exact_case: true
+- name: Moderna
+- name: Perplexity
+- name: Stability AI
+- name: xAI
+  aliases:
+  - x ai
+- name: Weights & Biases Inc
+- name: Replit
+- name: GitHub
+  aliases:
+  - git hub
+- name: GitLab
+  aliases:
+  - git lab

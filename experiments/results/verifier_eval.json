@@ -1,0 +1,247 @@
+{
+  "n": 30,
+  "accuracy": 1.0,
+  "per_class_recall": {
+    "SUPPORTED": 1.0,
+    "CONTRADICTED": 1.0,
+    "UNSUPPORTED": 1.0
+  },
+  "confusion": {
+    "SUPPORTED": {
+      "SUPPORTED": 10
+    },
+    "CONTRADICTED": {
+      "CONTRADICTED": 10
+    },
+    "UNSUPPORTED": {
+      "UNSUPPORTED": 10
+    }
+  },
+  "deterministic": {
+    "rejected": 9,
+    "false_rejections_of_supported": 0
+  },
+  "judge_calls": 3,
+  "rows": [
+    {
+      "id": "g01",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g02",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g03",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g04",
+      "kind": "paraphrase",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g05",
+      "kind": "number",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g06",
+      "kind": "comparative",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g07",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g08",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g09",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g10",
+      "kind": "direct",
+      "expected": "SUPPORTED",
+      "got": "SUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g11",
+      "kind": "comparative",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g12",
+      "kind": "comparative",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g13",
+      "kind": "number",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g14",
+      "kind": "number",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g15",
+      "kind": "universal",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g16",
+      "kind": "universal",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g17",
+      "kind": "causal",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g18",
+      "kind": "causal",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g19",
+      "kind": "offtopic",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g20",
+      "kind": "generalize",
+      "expected": "UNSUPPORTED",
+      "got": "UNSUPPORTED",
+      "deterministic_rejection": true
+    },
+    {
+      "id": "g21",
+      "kind": "negation",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g22",
+      "kind": "negation",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g23",
+      "kind": "opposite",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g24",
+      "kind": "opposite",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g25",
+      "kind": "number",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g26",
+      "kind": "opposite",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g27",
+      "kind": "negation",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g28",
+      "kind": "opposite",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g29",
+      "kind": "opposite",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    },
+    {
+      "id": "g30",
+      "kind": "opposite",
+      "expected": "CONTRADICTED",
+      "got": "CONTRADICTED",
+      "deterministic_rejection": false
+    }
+  ],
+  "judge_model": "gemini-2.5-flash",
+  "labels_by": "project author (hand-written, not independent)",
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

@@ -1,0 +1,25 @@
+{
+ "task_id": "t072",
+ "recorded_at": "2026-10-02T16:10:55.675168+00:00",
+ "status": "SUCCESS",
+ "workflow": "competitive_intelligence",
+ "router_intent": "COMPETITIVE_INTELLIGENCE",
+ "failures": [],
+ "recoveries": [],
+ "halted_reason": null,
+ "n_sources": 6,
+ "budget": {
+  "steps": 5,
+  "tool_calls": 4,
+  "searches": 1,
+  "llm_calls": 3,
+  "elapsed_seconds": 16.38120056898333,
+  "limits": {
+   "max_steps": 28,
+   "max_tool_calls": 60,
+   "max_searches": 16,
+   "max_llm_calls": 45,
+   "max_runtime_seconds": 600
+  }
+ }
+}

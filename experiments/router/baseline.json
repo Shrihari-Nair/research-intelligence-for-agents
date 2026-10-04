@@ -1,0 +1,112 @@
+{
+  "accuracy": 0.9074074074074074,
+  "macro_precision": 0.9134604978354979,
+  "macro_recall": 0.9080357142857143,
+  "macro_f1": 0.9064654777186869,
+  "per_intent_f1": {
+    "FACT_LOOKUP": 0.9473684210526315,
+    "TECHNOLOGY_COMPARISON": 0.9047619047619048,
+    "LITERATURE_REVIEW": 0.95,
+    "TECHNICAL_DEEP_DIVE": 0.8780487804878049,
+    "COMPETITIVE_INTELLIGENCE": 0.8780487804878049,
+    "MARKET_RESEARCH": 0.9333333333333333,
+    "RESEARCH_MONITORING": 0.926829268292683,
+    "GENERAL_RESEARCH": 0.8333333333333334
+  },
+  "emergency_recall": null,
+  "confusion_matrix": [
+    [
+      18,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      19,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      19,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      18,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      18,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      21,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      19,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      2,
+      0,
+      1,
+      2,
+      15
+    ]
+  ],
+  "n": 162,
+  "model": "baseline (frozen MiniLM + LogReg)",
+  "split": "test",
+  "seed": 42,
+  "head_train_seconds": 2.466994648988475,
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

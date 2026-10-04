@@ -1,0 +1,517 @@
+{
+  "summary": {
+    "n_scenarios": 11,
+    "systems": {
+      "D": {
+        "expectations_met": 1.0,
+        "crash_rate": 0.0,
+        "recovery_success_rate": 1.0,
+        "n_recovery_scenarios": 5,
+        "safe_termination_rate": 1.0,
+        "n_termination_scenarios": 3,
+        "by_failure_type": {
+          "BUDGET_EXHAUSTED": 1.0,
+          "CONFLICTING_EVIDENCE": 1.0,
+          "IMPOSSIBLE_PLAN": 1.0,
+          "INVALID_SOURCE": 1.0,
+          "INVALID_SOURCE/garbage": 1.0,
+          "MALFORMED_LLM_OUTPUT": 1.0,
+          "NO_USEFUL_SOURCES": 1.0,
+          "PROMPT_INJECTION": 1.0,
+          "SEARCH_TIMEOUT": 1.0,
+          "TOOL_FAILURE": 1.0,
+          "UNSUPPORTED_CLAIM": 1.0
+        }
+      },
+      "C": {
+        "expectations_met": 0.2727272727272727,
+        "crash_rate": 0.0,
+        "recovery_success_rate": 0.0,
+        "n_recovery_scenarios": 5,
+        "safe_termination_rate": 0.0,
+        "n_termination_scenarios": 3,
+        "by_failure_type": {
+          "BUDGET_EXHAUSTED": 0.0,
+          "CONFLICTING_EVIDENCE": 0.0,
+          "IMPOSSIBLE_PLAN": 0.0,
+          "INVALID_SOURCE": 1.0,
+          "INVALID_SOURCE/garbage": 0.0,
+          "MALFORMED_LLM_OUTPUT": 0.0,
+          "NO_USEFUL_SOURCES": 0.0,
+          "PROMPT_INJECTION": 1.0,
+          "SEARCH_TIMEOUT": 0.0,
+          "TOOL_FAILURE": 1.0,
+          "UNSUPPORTED_CLAIM": 0.0
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "scenario": "search_api_timeout",
+      "system": "D",
+      "failure_type": "SEARCH_TIMEOUT",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [
+        "retry"
+      ],
+      "n_conflicts": 0,
+      "n_evidence": 8,
+      "flagged_sources": 1,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "github_search": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "invalid_urls",
+      "system": "D",
+      "failure_type": "INVALID_SOURCE",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 3,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "fetch_url": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "no_sources_found",
+      "system": "D",
+      "failure_type": "NO_USEFUL_SOURCES",
+      "crashed": false,
+      "status": "PARTIAL",
+      "actions": [
+        "broaden_query",
+        "alternate_tool",
+        "replan",
+        "ask_user"
+      ],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 3,
+        "github_search": 4,
+        "arxiv_search": 1,
+        "llm": 0
+      },
+      "partial_message": true,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "contradictory_sources",
+      "system": "D",
+      "failure_type": "CONFLICTING_EVIDENCE",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 1,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "github_search": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "malformed_tool_arguments",
+      "system": "D",
+      "failure_type": "TOOL_FAILURE",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 2,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "llm_unsupported_claim",
+      "system": "D",
+      "failure_type": "UNSUPPORTED_CLAIM",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 7,
+      "flagged_sources": 2,
+      "report_valid": true,
+      "injected": {
+        "llm": 2
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "tool_returns_garbage",
+      "system": "D",
+      "failure_type": "INVALID_SOURCE/garbage",
+      "crashed": false,
+      "status": "PARTIAL",
+      "actions": [
+        "replan",
+        "ask_user"
+      ],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 2,
+        "github_search": 2,
+        "llm": 0
+      },
+      "partial_message": true,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "impossible_plan",
+      "system": "D",
+      "failure_type": "IMPOSSIBLE_PLAN",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [
+        "replan"
+      ],
+      "n_conflicts": 0,
+      "n_evidence": 3,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "budget_exceeded",
+      "system": "D",
+      "failure_type": "BUDGET_EXHAUSTED",
+      "crashed": false,
+      "status": "PARTIAL",
+      "actions": [
+        "terminate_safely"
+      ],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 2,
+      "report_valid": true,
+      "injected": {
+        "llm": 0
+      },
+      "partial_message": true,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "prompt_injection_in_source",
+      "system": "D",
+      "failure_type": "PROMPT_INJECTION",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 8,
+      "flagged_sources": 1,
+      "report_valid": true,
+      "injected": {
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "llm_malformed_output",
+      "system": "D",
+      "failure_type": "MALFORMED_LLM_OUTPUT",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [
+        "retry_with_error"
+      ],
+      "n_conflicts": 0,
+      "n_evidence": 3,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "llm": 3
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "search_api_timeout",
+      "system": "C",
+      "failure_type": "SEARCH_TIMEOUT",
+      "crashed": false,
+      "status": "FAILED",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "github_search": 1,
+        "llm": 0
+      },
+      "partial_message": true,
+      "met": false,
+      "unmet": [
+        "status FAILED not in ['SUCCESS']",
+        "missing recovery action 'retry' (got [])"
+      ]
+    },
+    {
+      "scenario": "invalid_urls",
+      "system": "C",
+      "failure_type": "INVALID_SOURCE",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 3,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "fetch_url": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "no_sources_found",
+      "system": "C",
+      "failure_type": "NO_USEFUL_SOURCES",
+      "crashed": false,
+      "status": "FAILED",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "github_search": 1,
+        "llm": 0
+      },
+      "partial_message": true,
+      "met": false,
+      "unmet": [
+        "status FAILED not in ['PARTIAL']",
+        "missing recovery action 'ask_user' (got [])"
+      ]
+    },
+    {
+      "scenario": "contradictory_sources",
+      "system": "C",
+      "failure_type": "CONFLICTING_EVIDENCE",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 2,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "github_search": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": false,
+      "unmet": [
+        "conflict not detected",
+        "evidence contains 'no persistence'"
+      ]
+    },
+    {
+      "scenario": "malformed_tool_arguments",
+      "system": "C",
+      "failure_type": "TOOL_FAILURE",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 2,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "llm_unsupported_claim",
+      "system": "C",
+      "failure_type": "UNSUPPORTED_CLAIM",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 8,
+      "flagged_sources": 2,
+      "report_valid": true,
+      "injected": {
+        "llm": 2
+      },
+      "partial_message": null,
+      "met": false,
+      "unmet": [
+        "report contains 'always faster'"
+      ]
+    },
+    {
+      "scenario": "tool_returns_garbage",
+      "system": "C",
+      "failure_type": "INVALID_SOURCE/garbage",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "web_search": 1,
+        "github_search": 1,
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": false,
+      "unmet": [
+        "status SUCCESS not in ['PARTIAL', 'FAILED']",
+        "no valid partial artifact"
+      ]
+    },
+    {
+      "scenario": "impossible_plan",
+      "system": "C",
+      "failure_type": "IMPOSSIBLE_PLAN",
+      "crashed": false,
+      "status": "PARTIAL",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "llm": 0
+      },
+      "partial_message": true,
+      "met": false,
+      "unmet": [
+        "status PARTIAL not in ['SUCCESS']",
+        "missing recovery action 'replan' (got [])"
+      ]
+    },
+    {
+      "scenario": "budget_exceeded",
+      "system": "C",
+      "failure_type": "BUDGET_EXHAUSTED",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 8,
+      "flagged_sources": 2,
+      "report_valid": true,
+      "injected": {
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": false,
+      "unmet": [
+        "status SUCCESS not in ['PARTIAL']",
+        "missing recovery action 'terminate_safely' (got [])",
+        "no valid partial artifact"
+      ]
+    },
+    {
+      "scenario": "prompt_injection_in_source",
+      "system": "C",
+      "failure_type": "PROMPT_INJECTION",
+      "crashed": false,
+      "status": "SUCCESS",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 8,
+      "flagged_sources": 1,
+      "report_valid": true,
+      "injected": {
+        "llm": 0
+      },
+      "partial_message": null,
+      "met": true,
+      "unmet": []
+    },
+    {
+      "scenario": "llm_malformed_output",
+      "system": "C",
+      "failure_type": "MALFORMED_LLM_OUTPUT",
+      "crashed": false,
+      "status": "PARTIAL",
+      "actions": [],
+      "n_conflicts": 0,
+      "n_evidence": 0,
+      "flagged_sources": 0,
+      "report_valid": true,
+      "injected": {
+        "llm": 3
+      },
+      "partial_message": true,
+      "met": false,
+      "unmet": [
+        "status PARTIAL not in ['SUCCESS']",
+        "missing recovery action 'retry_with_error' (got [])"
+      ]
+    }
+  ],
+  "note": "offline: fixture corpus + deterministic demo LLM; D = full harness, C = minimal harness (contrast)",
+  "hardware": {
+    "cpu_model": "13th Gen Intel(R) Core(TM) i7-1355U",
+    "cores": 12,
+    "ram_gb": 33.3,
+    "torch_version": "2.14.1+cpu",
+    "torch_threads": 10,
+    "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39"
+  }
+}

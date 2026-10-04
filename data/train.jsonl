@@ -1,0 +1,756 @@
+{"text":"Find arxiv papers about serverless computing and federated learning.","intent":"LITERATURE_REVIEW"}
+{"text":"Competitive analysis of Databricks, OpenAI and Twilio for a report.","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what are the trade-offs between monorepos and polyrepos","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What are people saying about MongoDB","intent":"GENERAL_RESEARCH"}
+{"text":"Notify me about developments in renewable energy storage.","intent":"RESEARCH_MONITORING"}
+{"text":"can you find me some surveys on quantum machine learning","intent":"LITERATURE_REVIEW"}
+{"text":"How many enterprises have adopted Dagster","intent":"MARKET_RESEARCH"}
+{"text":"What is the current state of AI ethics research?","intent":"GENERAL_RESEARCH"}
+{"text":"what's the market size for like um carbon capture technologies","intent":"MARKET_RESEARCH"}
+{"text":"so send me updates whenever the enterprise search market shifts","intent":"RESEARCH_MONITORING"}
+{"text":"who are the leading research groups working on small language models for my team","intent":"LITERATURE_REVIEW"}
+{"text":"hi review the academic literature on graph neural networks","intent":"LITERATURE_REVIEW"}
+{"text":"Please track the evolution of natural language processing models.","intent":"RESEARCH_MONITORING"}
+{"text":"when did spacex launch its first falcon heavy","intent":"FACT_LOOKUP"}
+{"text":"So basically how does reinforcement learning from feedback actually work step by step.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Can you explain the internal workings of a blockchain consensus mechanism like Proof of Stake?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"can you tell me about the competitive landscape for ai ethics software","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Please compare Cassandra and Terraform please.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"so uh who are the main competitors for databricks in the ml platform space","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Papers on the use of Python in data science.","intent":"LITERATURE_REVIEW"}
+{"text":"When did AWS launch its first service?","intent":"FACT_LOOKUP"}
+{"text":"walk me through how clickhouse schedules tasks under the hood thanks","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What's the current research landscape for sustainable energy solutions in urban environments?","intent":"LITERATURE_REVIEW"}
+{"text":"Compare the technical approaches of Google's BERT and OpenAI's GPT models for NLP.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"i want you to watch for new software releases from microsoft related to cloud security","intent":"RESEARCH_MONITORING"}
+{"text":"Explain the algorithm behind time series forecasting.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What are the recent developments in personalized medicine?","intent":"GENERAL_RESEARCH"}
+{"text":"What are the trade-offs of using Vue.js over Svelte?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"technical breakdown of how pytorch does observability for llm apps","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"size the api management market for the last two years for a report","intent":"MARKET_RESEARCH"}
+{"text":"How does a modern CPU execute instructions?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"can you monitor the market for new vr ar headsets from apple and meta","intent":"RESEARCH_MONITORING"}
+{"text":"so how does a virtual machine monitor manage resources","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Walk me through the operational flow of a typical CDN.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"so uh how does netflix's content delivery network operate","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What are the seminal works in the field of human-computer interaction?","intent":"LITERATURE_REVIEW"}
+{"text":"Explain how blockchain consensus mechanisms operate.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Keep me updated on the latest innovations in virtual reality hardware.","intent":"RESEARCH_MONITORING"}
+{"text":"can you migrating from rust to webassembly how do they compare","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"so size the low-code platform market for 2024","intent":"MARKET_RESEARCH"}
+{"text":"what's the current version of python","intent":"FACT_LOOKUP"}
+{"text":"right so how does nomad manage state across nodes","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Did Apple ever make a gaming console?","intent":"FACT_LOOKUP"}
+{"text":"List key papers on diffusion models from the last two years.","intent":"LITERATURE_REVIEW"}
+{"text":"Deep dive into how Dask stores data","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"what's the license for the linux kernel","intent":"FACT_LOOKUP"}
+{"text":"Track developments in edge AI for me","intent":"RESEARCH_MONITORING"}
+{"text":"monitor new releases of ray as soon as possible","intent":"RESEARCH_MONITORING"}
+{"text":"find me some papers on the use of ai in drug discovery","intent":"LITERATURE_REVIEW"}
+{"text":"What is the current population of China?","intent":"FACT_LOOKUP"}
+{"text":"Are there any comprehensive surveys on federated learning techniques?","intent":"LITERATURE_REVIEW"}
+{"text":"I'd like you to put together a reading list on protein structure prediction","intent":"LITERATURE_REVIEW"}
+{"text":"Compare C++ and Rust for system programming.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Tell me about the current state of renewable energy.","intent":"GENERAL_RESEARCH"}
+{"text":"What happens when a request hits Tailwind","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What are the open problems in vector search according to recent research?","intent":"LITERATURE_REVIEW"}
+{"text":"Which is better for real-time analytics: Kafka or RabbitMQ?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Which company maintains Terraform?","intent":"FACT_LOOKUP"}
+{"text":"What is the CAGR of the AI governance software market?","intent":"MARKET_RESEARCH"}
+{"text":"What are the drivers and risks in the AI coding assistant market","intent":"MARKET_RESEARCH"}
+{"text":"What is Amazon's competitive advantage in cloud services?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Walk through the source architecture of Langfuse for a report.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Explain the differences between Git and SVN.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"what's the general idea behind reinforcement learning","intent":"GENERAL_RESEARCH"}
+{"text":"can you explain what serverless computing is","intent":"GENERAL_RESEARCH"}
+{"text":"How does Qdrant manage state across nodes","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What does academic research indicate about the effectiveness of personalized learning platforms?","intent":"LITERATURE_REVIEW"}
+{"text":"Right so which cloud does Nvidia run on please","intent":"FACT_LOOKUP"}
+{"text":"Could you how do Envoy and Triton differ in cost and memory usage as soon as possible?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What's the growth trajectory for biotech startups?","intent":"MARKET_RESEARCH"}
+{"text":"what's new with weaviate","intent":"GENERAL_RESEARCH"}
+{"text":"uh what should i know about hugging face","intent":"GENERAL_RESEARCH"}
+{"text":"What's the business strategy behind DeepMind's research initiatives?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the internal design of Kafka","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Right so show me papers that compare approaches to diffusion models.","intent":"LITERATURE_REVIEW"}
+{"text":"Who are the main rivals to Unity in game engines?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Hey explain the design tradeoffs inside Docker Swarm","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"uh so i need you to track any new developments in quantum computing specifically for ibm","intent":"RESEARCH_MONITORING"}
+{"text":"Hi, alert me when New Relic announces anything new.","intent":"RESEARCH_MONITORING"}
+{"text":"Keep track of Notion product launches going forward please.","intent":"RESEARCH_MONITORING"}
+{"text":"What year did Google acquire YouTube?","intent":"FACT_LOOKUP"}
+{"text":"Market forecast for reinforcement learning from feedback over the next five years.","intent":"MARKET_RESEARCH"}
+{"text":"Is Kubernetes faster than Apache Iceberg","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"what are the pros and cons of using next js versus create react app","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Sales strategy for Snowflake?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What are the technical considerations when choosing between a REST API and GraphQL?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Quick question, track every new graph neural networks paper that appears","intent":"RESEARCH_MONITORING"}
+{"text":"What pricing model does Notion use compared to Cloudflare?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"tensorflow versus pulumi security model and vendor lock-in","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"How is Apache Iceberg implemented?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Profile Netlify and its top rivals","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"I want to learn about streaming data pipelines","intent":"GENERAL_RESEARCH"}
+{"text":"monitor new releases of memcached","intent":"RESEARCH_MONITORING"}
+{"text":"Subscribe me to developments in small language models.","intent":"RESEARCH_MONITORING"}
+{"text":"Uh how many enterprises have adopted Next.js.","intent":"MARKET_RESEARCH"}
+{"text":"What is the underlying mechanism of superconductivity?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Hey how is Weaviate implemented.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Describe the inner workings of a self-driving car's perception system.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How large is the drone delivery market?","intent":"MARKET_RESEARCH"}
+{"text":"Future of the space tourism market.","intent":"MARKET_RESEARCH"}
+{"text":"What's the process for protein folding prediction?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"how does zoom compare to microsoft teams for video conferencing","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"can you give me an overview of blockchain technology","intent":"GENERAL_RESEARCH"}
+{"text":"uh give me background on tensorrt-llm","intent":"GENERAL_RESEARCH"}
+{"text":"What are the main trends in the cybersecurity SaaS market?","intent":"MARKET_RESEARCH"}
+{"text":"Hey what's new with Databricks","intent":"GENERAL_RESEARCH"}
+{"text":"What are the key market drivers for the adoption of edge computing?","intent":"MARKET_RESEARCH"}
+{"text":"who are the emerging competitors for openai in large language models","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"please how many enterprises have adopted delta lake for a report","intent":"MARKET_RESEARCH"}
+{"text":"Right so find me information about LLM evaluation","intent":"GENERAL_RESEARCH"}
+{"text":"Explain the architecture of WebAssembly as soon as possible","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Explain the mechanics of a lidar system.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What is the CAGR of the observability tooling market?","intent":"MARKET_RESEARCH"}
+{"text":"What are the key research findings on the impact of remote work on team productivity?","intent":"LITERATURE_REVIEW"}
+{"text":"Keep me updated on federated learning","intent":"RESEARCH_MONITORING"}
+{"text":"what's new with zendesk","intent":"GENERAL_RESEARCH"}
+{"text":"please compare autogen and vllm","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"i need to understand the mechanics of a large hadron collider","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"i want you to watch for any major announcements from nvidia regarding their gpus","intent":"RESEARCH_MONITORING"}
+{"text":"Okay look into retrieval reranking and report back once for my team","intent":"GENERAL_RESEARCH"}
+{"text":"what is quantum computing","intent":"GENERAL_RESEARCH"}
+{"text":"explain the algorithm behind streaming data pipelines","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"how many planets are in our solar system","intent":"FACT_LOOKUP"}
+{"text":"Notify me about ongoing work in quantum machine learning.","intent":"RESEARCH_MONITORING"}
+{"text":"what's the capital of france","intent":"FACT_LOOKUP"}
+{"text":"Hey what is the default port of TensorRT-LLM for my team.","intent":"FACT_LOOKUP"}
+{"text":"Please track any significant updates regarding the AlphaFold project going forward.","intent":"RESEARCH_MONITORING"}
+{"text":"uh what are the latest papers on explainable ai for medical imaging","intent":"LITERATURE_REVIEW"}
+{"text":"what's the underlying principle of a generative adversarial network","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Alert me to new research on sustainable energy solutions.","intent":"RESEARCH_MONITORING"}
+{"text":"Right so which benchmarks are used in mixture of experts research","intent":"LITERATURE_REVIEW"}
+{"text":"Explain augmented reality.","intent":"GENERAL_RESEARCH"}
+{"text":"i need you to what is the cagr of the digital twin market","intent":"MARKET_RESEARCH"}
+{"text":"What's new in biotechnology?","intent":"GENERAL_RESEARCH"}
+{"text":"Track the performance of the latest NVIDIA GPUs.","intent":"RESEARCH_MONITORING"}
+{"text":"What's the market forecast for electric vehicle battery technology?","intent":"MARKET_RESEARCH"}
+{"text":"Keep track of Shopify product launches going forward","intent":"RESEARCH_MONITORING"}
+{"text":"what is the internet of things","intent":"GENERAL_RESEARCH"}
+{"text":"What are the main research areas in neuroscience related to memory formation?","intent":"LITERATURE_REVIEW"}
+{"text":"What's the mechanism behind CRISPR gene editing?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"what is the package name of opensearch on pypi","intent":"FACT_LOOKUP"}
+{"text":"Can you how much funding went into retrieval reranking startups in 2024 as soon as possible?","intent":"MARKET_RESEARCH"}
+{"text":"Track developments in speculative decoding for me for my team","intent":"RESEARCH_MONITORING"}
+{"text":"What is Cerebras's product strategy compared to Databricks","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Please walk me through how Weaviate schedules tasks under the hood.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How do Ollama and Qdrant differ in learning curve and tooling maturity?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Is RabbitMQ faster than Apache Iceberg","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"alert me when slack announces anything new","intent":"RESEARCH_MONITORING"}
+{"text":"What's the expected growth for AR in retail?","intent":"MARKET_RESEARCH"}
+{"text":"How many employees does Confluent have","intent":"FACT_LOOKUP"}
+{"text":"watch the digital twin market and tell me what changes","intent":"RESEARCH_MONITORING"}
+{"text":"Find me papers on the ethical implications of autonomous vehicles.","intent":"LITERATURE_REVIEW"}
+{"text":"Side by side comparison of Docker Swarm and PyTorch","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Find recent papers on mixture of experts","intent":"LITERATURE_REVIEW"}
+{"text":"how large is the market for um precision agriculture technologies","intent":"MARKET_RESEARCH"}
+{"text":"what has stripe launched recently to counter fastly","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Papers on quantum computing security.","intent":"LITERATURE_REVIEW"}
+{"text":"who are the top three competitors for moderna in mrna vaccines","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What's new with generative AI?","intent":"GENERAL_RESEARCH"}
+{"text":"how does gpt-3 stack up against bert for natural language understanding","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"hi give me market size figures for ai governance software market with dates for my team","intent":"MARKET_RESEARCH"}
+{"text":"Who challenges NVIDIA in GPU for AI?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Emerging trends in data analytics platforms.","intent":"MARKET_RESEARCH"}
+{"text":"what are the main challenges for google in competing with apple in smartphones","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what's the name of elon musk's other company besides tesla and spacex","intent":"FACT_LOOKUP"}
+{"text":"Monitor the evolution of 6G wireless technology.","intent":"RESEARCH_MONITORING"}
+{"text":"So describe the memory model of Triton.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Give me an overview of the current state of robotics.","intent":"GENERAL_RESEARCH"}
+{"text":"what's the market size for like um blockchain in supply chain management","intent":"MARKET_RESEARCH"}
+{"text":"Keep me updated on advancements in explainable AI.","intent":"RESEARCH_MONITORING"}
+{"text":"Growth in personalized medicine.","intent":"MARKET_RESEARCH"}
+{"text":"What should I know about Pinecone?","intent":"GENERAL_RESEARCH"}
+{"text":"keep an eye on triton security advisories","intent":"RESEARCH_MONITORING"}
+{"text":"what are the main distinctions between blockchain and traditional databases","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Alert me to any major announcements from OpenAI.","intent":"RESEARCH_MONITORING"}
+{"text":"how does the backpropagation algorithm update neural network weights","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What's Google Cloud's strategy against AWS?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is Google's strategy for monetizing their AI research?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"alert me to any new findings in neuroscience particularly brain-computer interfaces","intent":"RESEARCH_MONITORING"}
+{"text":"Are there any good survey papers on neural architecture search?","intent":"LITERATURE_REVIEW"}
+{"text":"quick question what share of companies use prompt injection defenses today","intent":"MARKET_RESEARCH"}
+{"text":"Okay map the research landscape of long-context transformers if you can.","intent":"LITERATURE_REVIEW"}
+{"text":"i'm interested in what the research says about employee engagement in remote work environments","intent":"LITERATURE_REVIEW"}
+{"text":"Market forecast for advanced robotics.","intent":"MARKET_RESEARCH"}
+{"text":"Overview of virtual reality applications.","intent":"GENERAL_RESEARCH"}
+{"text":"Uh what's new with Stripe.","intent":"GENERAL_RESEARCH"}
+{"text":"When was Python 3.0 released?","intent":"FACT_LOOKUP"}
+{"text":"um follow changes to ollama release notes from now on","intent":"RESEARCH_MONITORING"}
+{"text":"can you compare react versus angular for web development","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Competitors to Moderna in mRNA vaccines?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"who are the up and coming competitors for stripe in payment processing","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"can you tell me about the latest developments in brain computer interfaces","intent":"GENERAL_RESEARCH"}
+{"text":"What are the typical pricing levels for cloud-based data analytics platforms?","intent":"MARKET_RESEARCH"}
+{"text":"Studies on the effectiveness of remote work.","intent":"LITERATURE_REVIEW"}
+{"text":"what's the fundamental principle behind a superconducting magnet","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Does Microsoft offer a free tier for Azure?","intent":"FACT_LOOKUP"}
+{"text":"Who founded OpenAI?","intent":"FACT_LOOKUP"}
+{"text":"explain docker swarm to me","intent":"GENERAL_RESEARCH"}
+{"text":"quick question what is the package name of llamaindex on pypi as soon as possible","intent":"FACT_LOOKUP"}
+{"text":"Can you what is knowledge graphs","intent":"GENERAL_RESEARCH"}
+{"text":"Alert me to any significant news from DeepMind.","intent":"RESEARCH_MONITORING"}
+{"text":"i'm interested in the pricing levels for custom antibody production","intent":"MARKET_RESEARCH"}
+{"text":"What's the underlying tech of a virtual machine?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"give me the market forecast for advanced materials in aerospace","intent":"MARKET_RESEARCH"}
+{"text":"What are the key differentiators for Databricks compared to Snowflake?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Is TensorFlow an open-source library?","intent":"FACT_LOOKUP"}
+{"text":"How does Microsoft position Azure ML against AWS SageMaker?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Describe the memory model of LlamaIndex.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"what does the research say about small language models","intent":"LITERATURE_REVIEW"}
+{"text":"How do Triton and LangGraph differ in tooling maturity and scalability as soon as possible","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"what's the pricing strategy like for snowflake versus bigquery","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Monitor the competitive landscape for autonomous vehicle technology.","intent":"RESEARCH_MONITORING"}
+{"text":"Size of the educational technology market.","intent":"MARKET_RESEARCH"}
+{"text":"Hey send me updates whenever the conversational AI market shifts if you can.","intent":"RESEARCH_MONITORING"}
+{"text":"What's Oracle's cloud growth story?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What's the competitive landscape for gene editing?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the general idea behind explainable AI?","intent":"GENERAL_RESEARCH"}
+{"text":"who are the main rivals for boston dynamics in robotics","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What are the recent advancements in battery technology?","intent":"GENERAL_RESEARCH"}
+{"text":"So give me an overview of observability for LLM apps","intent":"GENERAL_RESEARCH"}
+{"text":"Okay i want to learn about graph neural networks.","intent":"GENERAL_RESEARCH"}
+{"text":"How do smaller biotech firms compete with pharmaceutical giants?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Where is Confluent vulnerable relative to Groq?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Where is Anthropic headquartered","intent":"FACT_LOOKUP"}
+{"text":"Track every new protein structure prediction paper that appears.","intent":"RESEARCH_MONITORING"}
+{"text":"Profile MongoDB Inc and its top rivals","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the adoption rate of federated learning in enterprises?","intent":"MARKET_RESEARCH"}
+{"text":"What is big data?","intent":"GENERAL_RESEARCH"}
+{"text":"Competitive analysis of AMD, Cohere and New Relic.","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"tell me about the elon musk twitter acquisition","intent":"GENERAL_RESEARCH"}
+{"text":"How does the TCP\/IP protocol suite manage data transmission?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Give me market size figures for cloud data warehouse market with dates.","intent":"MARKET_RESEARCH"}
+{"text":"hey who are the leading research groups working on protein structure prediction as soon as possible","intent":"LITERATURE_REVIEW"}
+{"text":"can you tell me about the latest in fusion energy research","intent":"GENERAL_RESEARCH"}
+{"text":"Map the competitive landscape around Anthropic.","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Explain the concept of digital twins.","intent":"GENERAL_RESEARCH"}
+{"text":"Quick question, survey the state of the art in neural architecture search.","intent":"LITERATURE_REVIEW"}
+{"text":"What's the market perception of Palantir?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"analyze databricks's position against notion","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Can you find me some recent papers on explainable AI for medical imaging?","intent":"LITERATURE_REVIEW"}
+{"text":"Show me papers that compare approaches to edge AI.","intent":"LITERATURE_REVIEW"}
+{"text":"Who are the top competitors for Palantir in government data analytics?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what does the academic literature say about customer churn prediction using machine learning","intent":"LITERATURE_REVIEW"}
+{"text":"GCP vs AWS for cloud storage.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"deep dive into how dbt stores data","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Okay which customers does Hugging Face win against Netlify for a report.","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Track progress in CRISPR gene editing techniques.","intent":"RESEARCH_MONITORING"}
+{"text":"uhm when was the first iphone released","intent":"FACT_LOOKUP"}
+{"text":"Please how much funding went into knowledge graphs startups in the last five years.","intent":"MARKET_RESEARCH"}
+{"text":"What's the current market size for AI in healthcare?","intent":"MARKET_RESEARCH"}
+{"text":"Quick question, review the academic literature on vector search.","intent":"LITERATURE_REVIEW"}
+{"text":"What is the maximum number of layers in a perceptron?","intent":"FACT_LOOKUP"}
+{"text":"Notify me going forward about breakthroughs in neuroscience.","intent":"RESEARCH_MONITORING"}
+{"text":"i'm looking for data on the pricing of gene editing therapies","intent":"MARKET_RESEARCH"}
+{"text":"Microsoft's play in quantum computing?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Give me an overview of the current trends in cybersecurity.","intent":"GENERAL_RESEARCH"}
+{"text":"can you monitor the competitive landscape for electric vehicle battery technology","intent":"RESEARCH_MONITORING"}
+{"text":"Survey the state of the art in observability for LLM apps.","intent":"LITERATURE_REVIEW"}
+{"text":"give me market size figures for speech analytics market with dates thanks","intent":"MARKET_RESEARCH"}
+{"text":"What is the current landscape of virtual reality hardware?","intent":"GENERAL_RESEARCH"}
+{"text":"Watch the vector database market and tell me what changes.","intent":"RESEARCH_MONITORING"}
+{"text":"I need you to find arxiv papers about synthetic data generation and agent memory.","intent":"LITERATURE_REVIEW"}
+{"text":"is rust memory safe by design","intent":"FACT_LOOKUP"}
+{"text":"What's the official name of the company behind Windows?","intent":"FACT_LOOKUP"}
+{"text":"what are the foundational papers in graph neural networks","intent":"LITERATURE_REVIEW"}
+{"text":"competitive analysis of stripe grafana labs and openai","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"How big is the VR gaming market?","intent":"MARKET_RESEARCH"}
+{"text":"Follow changes to PostgreSQL release notes from now on","intent":"RESEARCH_MONITORING"}
+{"text":"Track developments in speculative decoding for me","intent":"RESEARCH_MONITORING"}
+{"text":"Show me papers that compare approaches to multi-agent systems please","intent":"LITERATURE_REVIEW"}
+{"text":"What is the release date of Python 3.10?","intent":"FACT_LOOKUP"}
+{"text":"I'm looking for studies on the psychological effects of social media usage.","intent":"LITERATURE_REVIEW"}
+{"text":"Django vs Flask for web development.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Evaluate Triton vs JAX vs Istio for a startup","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What have researchers found about streaming data pipelines in 2025?","intent":"LITERATURE_REVIEW"}
+{"text":"um explain the algorithm behind multimodal learning","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How do Git and SVN compare for version control in software projects?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Recent literature on generative adversarial networks.","intent":"LITERATURE_REVIEW"}
+{"text":"Build a competitor profile for Elastic.","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the package name of Triton on PyPI?","intent":"FACT_LOOKUP"}
+{"text":"Where is Google DeepMind vulnerable relative to Slack","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What does the research say about neural architecture search","intent":"LITERATURE_REVIEW"}
+{"text":"what are the most cited papers on transformer models in nlp","intent":"LITERATURE_REVIEW"}
+{"text":"keep me updated on the latest research in gene editing like crispr technology","intent":"RESEARCH_MONITORING"}
+{"text":"Explain the fundamental principles of quantum entanglement.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Can you monitor new developments in quantum computing for me?","intent":"RESEARCH_MONITORING"}
+{"text":"um who are the key players in the quantum computing hardware market","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"I'm curious about diffusion models, what can you find.","intent":"GENERAL_RESEARCH"}
+{"text":"So research differential privacy for me.","intent":"GENERAL_RESEARCH"}
+{"text":"so uh tell me about large language models","intent":"GENERAL_RESEARCH"}
+{"text":"i need you to evaluate pinecone vs dbt vs tailwind for a startup please","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"so compare dagster mlflow and vue on scalability","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"So basically who is the CEO of Fastly","intent":"FACT_LOOKUP"}
+{"text":"Tell me about the impact of AI on healthcare.","intent":"GENERAL_RESEARCH"}
+{"text":"Describe the architecture of the Ethereum blockchain.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Benchmark AutoGen against pgvector","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Who are the main competitors for Boston Dynamics in robotics?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What's the market size for augmented reality in retail?","intent":"MARKET_RESEARCH"}
+{"text":"Quick question, find me information about graph neural networks.","intent":"GENERAL_RESEARCH"}
+{"text":"Analyze Atlassian's position against Canva","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"how many enterprises have adopted duckdb if you can","intent":"MARKET_RESEARCH"}
+{"text":"uh what are the seminal works on distributed ledger technology beyond cryptocurrency","intent":"LITERATURE_REVIEW"}
+{"text":"i need you to watch pinecone's changelog and report back regularly","intent":"RESEARCH_MONITORING"}
+{"text":"What are the competitive pressures on Netflix in streaming services?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"how much funding went into diffusion models startups in 2025","intent":"MARKET_RESEARCH"}
+{"text":"hey give me a literature review of model quantization","intent":"LITERATURE_REVIEW"}
+{"text":"how much funding went into agent memory startups in the last five years","intent":"MARKET_RESEARCH"}
+{"text":"Key trends in B2B marketing automation.","intent":"MARKET_RESEARCH"}
+{"text":"What's the market size of the global genomics sequencing industry?","intent":"MARKET_RESEARCH"}
+{"text":"who are the leading research groups working on multimodal learning","intent":"LITERATURE_REVIEW"}
+{"text":"Please how does Kafka implement knowledge graphs at a low level.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What's the name of the algorithm behind PageRank?","intent":"FACT_LOOKUP"}
+{"text":"Which is better for data visualization, D3.js or Plotly?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What are the typical licensing fees for patented biotechnologies?","intent":"MARKET_RESEARCH"}
+{"text":"Uh subscribe me to developments in zero-knowledge proofs.","intent":"RESEARCH_MONITORING"}
+{"text":"So send me updates whenever the cloud data warehouse market shifts for my team","intent":"RESEARCH_MONITORING"}
+{"text":"i'd like ongoing tracking of synthetic data generation","intent":"RESEARCH_MONITORING"}
+{"text":"Continuously watch for news about Mistral AI","intent":"RESEARCH_MONITORING"}
+{"text":"track any progress in the search for exoplanets and extraterrestrial life","intent":"RESEARCH_MONITORING"}
+{"text":"what does the acronym jax stand for","intent":"FACT_LOOKUP"}
+{"text":"what's the market share breakdown for cloud providers like aws azure and gcp","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Describe the internal operations of a modern relational database management system.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Who are the major players in the gene editing commercial sector?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"uh how much funding went into llm evaluation startups in 2025 for my team","intent":"MARKET_RESEARCH"}
+{"text":"I'd like ongoing tracking of zero-knowledge proofs","intent":"RESEARCH_MONITORING"}
+{"text":"which benchmarks are used in speculative decoding research","intent":"LITERATURE_REVIEW"}
+{"text":"i'm curious about protein structure prediction what can you find","intent":"GENERAL_RESEARCH"}
+{"text":"What is the default port of MLflow?","intent":"FACT_LOOKUP"}
+{"text":"what is augmented reality","intent":"GENERAL_RESEARCH"}
+{"text":"Summarize what is known about retrieval augmented generation.","intent":"GENERAL_RESEARCH"}
+{"text":"what's the current adoption rate of serverless architectures in fintech","intent":"MARKET_RESEARCH"}
+{"text":"so what's the market value of the global space economy","intent":"MARKET_RESEARCH"}
+{"text":"How does Delta Lake stack up against React in terms of learning curve?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"So basically who are the leading research groups working on diffusion models if you can.","intent":"LITERATURE_REVIEW"}
+{"text":"Literature on augmented reality in education.","intent":"LITERATURE_REVIEW"}
+{"text":"can you walk me through how a modern cpu pipeline works","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"explain pinecone to me as soon as possible","intent":"GENERAL_RESEARCH"}
+{"text":"Technical breakdown of how Django does streaming data pipelines","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Give me a general understanding of cloud-native applications.","intent":"GENERAL_RESEARCH"}
+{"text":"Overview of sustainable business practices.","intent":"GENERAL_RESEARCH"}
+{"text":"What is the general understanding of serverless architecture?","intent":"GENERAL_RESEARCH"}
+{"text":"Track every new streaming data pipelines paper that appears.","intent":"RESEARCH_MONITORING"}
+{"text":"is javascript single threaded","intent":"FACT_LOOKUP"}
+{"text":"Estimate the total addressable market for agent memory tools as soon as possible.","intent":"MARKET_RESEARCH"}
+{"text":"Hey which is better for production, Nomad or TensorRT-LLM.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Deep dive into how gRPC stores data if you can.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What share of companies use diffusion models today","intent":"MARKET_RESEARCH"}
+{"text":"Okay compare Nomad and PyTorch","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Contrast Figma and Adobe XD for UI\/UX design.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Give me a comparison of ClickHouse and Go on ease of use and ecosystem","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Okay can you monitor vLLM versus Weaviate adoption over the coming months.","intent":"RESEARCH_MONITORING"}
+{"text":"Compare React and Angular for large SPAs.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"How big is the speech analytics market?","intent":"MARKET_RESEARCH"}
+{"text":"Quick question, does Prefect support FastAPI natively","intent":"FACT_LOOKUP"}
+{"text":"What is the name of the largest ocean on Earth?","intent":"FACT_LOOKUP"}
+{"text":"what does the research say about long-context transformers as soon as possible","intent":"LITERATURE_REVIEW"}
+{"text":"Size the AI coding assistant market for the last five years","intent":"MARKET_RESEARCH"}
+{"text":"What share of companies use causal inference today?","intent":"MARKET_RESEARCH"}
+{"text":"Okay show me papers that compare approaches to retrieval reranking.","intent":"LITERATURE_REVIEW"}
+{"text":"What is the minimum Python version for React?","intent":"FACT_LOOKUP"}
+{"text":"what are typical prices in the vector database market","intent":"MARKET_RESEARCH"}
+{"text":"i need to know the market forecast for sustainable aviation fuel like by 2030","intent":"MARKET_RESEARCH"}
+{"text":"Can you JAX or LangChain, which one scales better","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"I need you to which companies are Grafana Labs's fastest growing rivals","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"recent developments in ray","intent":"GENERAL_RESEARCH"}
+{"text":"What's the maximum number of layers in a standard ResNet-50?","intent":"FACT_LOOKUP"}
+{"text":"tell me about the concept of artificial general intelligence","intent":"GENERAL_RESEARCH"}
+{"text":"alert me to any significant breakthroughs in renewable energy sources going forward","intent":"RESEARCH_MONITORING"}
+{"text":"tell me about the adoption rates of machine learning operations platforms","intent":"MARKET_RESEARCH"}
+{"text":"collect the most cited papers on protein structure prediction thanks","intent":"LITERATURE_REVIEW"}
+{"text":"can you explain the internal workings of a blockchain consensus mechanism","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Does Spark support vLLM natively?","intent":"FACT_LOOKUP"}
+{"text":"What's the current market penetration of blockchain in supply chain management?","intent":"MARKET_RESEARCH"}
+{"text":"how do graphql and rest apis compare","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Alert me to any breakthroughs in CRISPR gene editing.","intent":"RESEARCH_MONITORING"}
+{"text":"Keep track of Scale AI product launches going forward","intent":"RESEARCH_MONITORING"}
+{"text":"right so put together a reading list on protein structure prediction","intent":"LITERATURE_REVIEW"}
+{"text":"what's the latest on graph neural networks","intent":"GENERAL_RESEARCH"}
+{"text":"What is the CAGR of the edge AI chip market","intent":"MARKET_RESEARCH"}
+{"text":"What pricing model does Fastly use compared to Shopify?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what's the market size for like um robotic process automation","intent":"MARKET_RESEARCH"}
+{"text":"quick question i'm curious about causal inference what can you find","intent":"GENERAL_RESEARCH"}
+{"text":"How is Datadog differentiating from Confluent","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Hi, look into graph neural networks and report back once","intent":"GENERAL_RESEARCH"}
+{"text":"Watch for emerging trends in serverless architecture.","intent":"RESEARCH_MONITORING"}
+{"text":"What's the difference between blockchain and traditional databases?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"competitive analysis of grafana labs cloudflare and new relic for a report","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what are the typical pricing models for cloud-based hpc services","intent":"MARKET_RESEARCH"}
+{"text":"Watch for any major security vulnerabilities discovered in popular web browsers.","intent":"RESEARCH_MONITORING"}
+{"text":"please compare the ecosystem of milvus and dbt","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Track every new multi-agent systems paper that appears.","intent":"RESEARCH_MONITORING"}
+{"text":"Migrating from Nomad to Triton: how do they compare.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Describe the internal logic of a recommendation engine.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"so what's the general landscape of cybersecurity threats right now","intent":"GENERAL_RESEARCH"}
+{"text":"Is TensorFlow faster than gRPC?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Studies on climate change impact on agriculture.","intent":"LITERATURE_REVIEW"}
+{"text":"walk me through how django schedules tasks under the hood","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Competitive analysis of Palantir, HashiCorp and Google DeepMind.","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"give me market size figures for enterprise search market with dates","intent":"MARKET_RESEARCH"}
+{"text":"how does a genetic algorithm find optimal solutions","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Surveys on serverless architecture.","intent":"LITERATURE_REVIEW"}
+{"text":"can you compare the features of jira and trello for project management","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What are Hugging Face's strengths and weaknesses versus Cohere?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"explain the mechanics of a lidar sensor","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"um what's the market size for like ai in drug discovery right now","intent":"MARKET_RESEARCH"}
+{"text":"what does the research say about prompt injection defenses","intent":"LITERATURE_REVIEW"}
+{"text":"Please provide an overview of the literature on augmented reality in education.","intent":"LITERATURE_REVIEW"}
+{"text":"How does Scale AI's go-to-market compare with Nvidia?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Watch the API management market and tell me what changes for my team","intent":"RESEARCH_MONITORING"}
+{"text":"Technical breakdown of how Pinecone does protein structure prediction","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How does a transformer model process language?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Build a competitor profile for Figma","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Who created pgvector","intent":"FACT_LOOKUP"}
+{"text":"Please summarize what is known about diffusion models","intent":"GENERAL_RESEARCH"}
+{"text":"what's the pricing model for adobe creative cloud versus its alternatives","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What do papers say about Rust in embedded systems?","intent":"LITERATURE_REVIEW"}
+{"text":"What's the default port for HTTP?","intent":"FACT_LOOKUP"}
+{"text":"Which company maintains ONNX Runtime?","intent":"FACT_LOOKUP"}
+{"text":"What programming language is PyTorch written in?","intent":"FACT_LOOKUP"}
+{"text":"Walk through the source architecture of Nomad","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What license does gRPC use?","intent":"FACT_LOOKUP"}
+{"text":"What does the research say about multi-agent systems","intent":"LITERATURE_REVIEW"}
+{"text":"duckdb or kafka which one scales better","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"how does a convolutional neural network identify features in an image","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Okay can you monitor Triton versus ONNX Runtime adoption over the coming months","intent":"RESEARCH_MONITORING"}
+{"text":"Compare the performance of PyTorch and TensorFlow for large-scale deep learning models.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"so uh what are the growth trends for quantum computing adoption over the next five years","intent":"MARKET_RESEARCH"}
+{"text":"Pricing for Salesforce vs. HubSpot?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the latest on gene editing technologies like CRISPR?","intent":"GENERAL_RESEARCH"}
+{"text":"what's the chemical symbol for gold","intent":"FACT_LOOKUP"}
+{"text":"notify me about ongoing clinical trials for alzheimer's disease treatments","intent":"RESEARCH_MONITORING"}
+{"text":"Prefect versus gRPC: security model and throughput.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"django versus vue community support and deployment complexity as soon as possible","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"what's the competitive positioning of salesforce in crm software","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"how many employees does cloudflare have please","intent":"FACT_LOOKUP"}
+{"text":"Can you continuously watch for news about Nvidia?","intent":"RESEARCH_MONITORING"}
+{"text":"survey the state of the art in model quantization","intent":"LITERATURE_REVIEW"}
+{"text":"I need to know the research trends in natural language processing for legal documents.","intent":"LITERATURE_REVIEW"}
+{"text":"how does vue manage state across nodes","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Watch for updates on large language model architectures.","intent":"RESEARCH_MONITORING"}
+{"text":"how does mlflow manage state across nodes","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Describe the memory model of Weaviate","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Who are the main competitors of Nvidia?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"i need you to research vector search for me thanks","intent":"GENERAL_RESEARCH"}
+{"text":"Quick question, what are the differences between PostgreSQL and Delta Lake.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"i need to understand the research on sustainable software engineering practices","intent":"LITERATURE_REVIEW"}
+{"text":"compare the security features of windows server versus linux server","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What's the market forecast for advanced materials in aerospace manufacturing?","intent":"MARKET_RESEARCH"}
+{"text":"Give me an overview of the metaverse concept.","intent":"GENERAL_RESEARCH"}
+{"text":"Which company maintains AutoGen?","intent":"FACT_LOOKUP"}
+{"text":"What license does React use","intent":"FACT_LOOKUP"}
+{"text":"What are the core components and processes of a modern CPU?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Track ongoing research in personalized medicine.","intent":"RESEARCH_MONITORING"}
+{"text":"Could you send me updates whenever the MLOps platform market shifts","intent":"RESEARCH_MONITORING"}
+{"text":"Research multimodal learning for me.","intent":"GENERAL_RESEARCH"}
+{"text":"Give me a primer on PyTorch.","intent":"GENERAL_RESEARCH"}
+{"text":"Spark vs Hadoop for big data processing.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"is java a compiled language","intent":"FACT_LOOKUP"}
+{"text":"how does a reinforcement learning agent learn its policy","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"When was the first iPhone introduced?","intent":"FACT_LOOKUP"}
+{"text":"uh what's the difference between agile and waterfall methodologies","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"i need to know the pros and cons of aws versus azure for cloud services","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Explain ClickHouse to me.","intent":"GENERAL_RESEARCH"}
+{"text":"What is the main function of a GPU in machine learning?","intent":"FACT_LOOKUP"}
+{"text":"Give me a comparison of Ray and vLLM on latency and deployment complexity","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Explain machine learning basics.","intent":"GENERAL_RESEARCH"}
+{"text":"Can you detail the mechanism behind CRISPR-Cas9 gene editing?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How do SQL and NoSQL databases differ in terms of scalability and data structure?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"When was Adyen founded for a report?","intent":"FACT_LOOKUP"}
+{"text":"uh what's the current research landscape for cyber security threats in iot","intent":"LITERATURE_REVIEW"}
+{"text":"What are the key aspects of sustainable business practices?","intent":"GENERAL_RESEARCH"}
+{"text":"how does tailwind stack up against django in terms of vendor lock-in","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"I need you to what does the research say about retrieval augmented generation.","intent":"LITERATURE_REVIEW"}
+{"text":"Compare WebAssembly, Dagster and Weaviate on scalability","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"How does IBM position Watson now?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"can you give me a rundown of the competitive advantages of starlink","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Is JavaScript single-threaded?","intent":"FACT_LOOKUP"}
+{"text":"Who created Nomad?","intent":"FACT_LOOKUP"}
+{"text":"tell me about the architecture of google's spanner database","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Notify me of advancements in renewable hydrogen production.","intent":"RESEARCH_MONITORING"}
+{"text":"can you tell me about the market trends in neurotechnology","intent":"MARKET_RESEARCH"}
+{"text":"Market outlook for sustainable packaging.","intent":"MARKET_RESEARCH"}
+{"text":"when was dbt first released","intent":"FACT_LOOKUP"}
+{"text":"Penetration rate of electric vehicles.","intent":"MARKET_RESEARCH"}
+{"text":"Average cost of a custom software project.","intent":"MARKET_RESEARCH"}
+{"text":"Explain how PyTorch achieves its vendor lock-in.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"I need you to can you monitor MLflow versus Kubernetes adoption over the coming months.","intent":"RESEARCH_MONITORING"}
+{"text":"What are the latest trends in e-commerce platforms?","intent":"GENERAL_RESEARCH"}
+{"text":"is onnx runtime licensed under apache 2.0 for a report","intent":"FACT_LOOKUP"}
+{"text":"Hi, what is the maximum context length of Django.","intent":"FACT_LOOKUP"}
+{"text":"Tell me about the internet of things.","intent":"GENERAL_RESEARCH"}
+{"text":"benchmark snowflake against weights & biases","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"State of the art in federated learning.","intent":"LITERATURE_REVIEW"}
+{"text":"Deep dive into how pgvector stores data","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What are Cloudflare's offerings that threaten Confluent?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Monitor the market for new enterprise blockchain solutions.","intent":"RESEARCH_MONITORING"}
+{"text":"Technical breakdown of how RabbitMQ does federated learning.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Papers discussing cybersecurity threats to IoT.","intent":"LITERATURE_REVIEW"}
+{"text":"How does vLLM work internally","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What are the key steps in the mRNA vaccine production process?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How does Meta plan to monetize the metaverse?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"so what's better for machine learning scikit-learn or tensorflow","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"I need you to keep me informed about new cybersecurity threats.","intent":"RESEARCH_MONITORING"}
+{"text":"Who developed the first neural network?","intent":"FACT_LOOKUP"}
+{"text":"Watch for emerging trends in cybersecurity.","intent":"RESEARCH_MONITORING"}
+{"text":"build a competitor profile for mistral ai","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Can you tell me about the pricing model for Salesforce's Einstein AI?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"tell me about the performance differences between c++ and rust","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"can you identify the key competitors for deepmind in ai research","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What are the main differences between supervised and unsupervised learning algorithms?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"how does serverless computing compare to traditional vm based hosting","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"I need you to are there any good survey papers on diffusion models","intent":"LITERATURE_REVIEW"}
+{"text":"Can you monitor the progress of SpaceX's Starship program?","intent":"RESEARCH_MONITORING"}
+{"text":"Which cloud does Shopify run on?","intent":"FACT_LOOKUP"}
+{"text":"Can you how is Next.js implemented","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What license does RabbitMQ use","intent":"FACT_LOOKUP"}
+{"text":"Which blockchain platform, Ethereum or Solana, offers better transaction throughput?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What's the market share of major players in the B2B e-commerce sector?","intent":"MARKET_RESEARCH"}
+{"text":"How does NVIDIA maintain its market dominance in GPU hardware?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Keep me informed on advancements in robotics.","intent":"RESEARCH_MONITORING"}
+{"text":"what should i know about weaviate for a report","intent":"GENERAL_RESEARCH"}
+{"text":"what is the gig economy","intent":"GENERAL_RESEARCH"}
+{"text":"Please i'm curious about retrieval augmented generation, what can you find","intent":"GENERAL_RESEARCH"}
+{"text":"Research on human-computer interaction for VR.","intent":"LITERATURE_REVIEW"}
+{"text":"What is the general idea behind edge computing?","intent":"GENERAL_RESEARCH"}
+{"text":"Help me understand prompt injection defenses.","intent":"GENERAL_RESEARCH"}
+{"text":"can you monitor the development of new materials for 3d printing","intent":"RESEARCH_MONITORING"}
+{"text":"Migrating from Flask to Weights & Biases: how do they compare","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"what is going on with serverless computing lately","intent":"GENERAL_RESEARCH"}
+{"text":"Who invented the World Wide Web?","intent":"FACT_LOOKUP"}
+{"text":"How many employees does Scale AI have?","intent":"FACT_LOOKUP"}
+{"text":"who competes with adyen in conversational ai market as soon as possible","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the official currency of Japan?","intent":"FACT_LOOKUP"}
+{"text":"Tell me about recent advancements in robotics.","intent":"GENERAL_RESEARCH"}
+{"text":"What does the literature say about the use of large language models in scientific discovery?","intent":"LITERATURE_REVIEW"}
+{"text":"Notify me of ongoing progress in sustainable energy storage solutions.","intent":"RESEARCH_MONITORING"}
+{"text":"Okay how does Elasticsearch work internally.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Who competes with Atlassian in digital twin market?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Summarize what is known about retrieval augmented generation thanks.","intent":"GENERAL_RESEARCH"}
+{"text":"Find me information about long-context transformers.","intent":"GENERAL_RESEARCH"}
+{"text":"Can you compare the security model of Spark and Kubernetes for a report?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"I'd like ongoing tracking of multi-agent systems.","intent":"RESEARCH_MONITORING"}
+{"text":"so uh what's the difference between pytorch and tensorflow for deep learning","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"when was memcached first released","intent":"FACT_LOOKUP"}
+{"text":"Give me market size figures for digital twin market with dates if you can.","intent":"MARKET_RESEARCH"}
+{"text":"What is the internal design of Cassandra please?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Follow changes to RabbitMQ release notes from now on.","intent":"RESEARCH_MONITORING"}
+{"text":"Can you monitor new releases of LangGraph?","intent":"RESEARCH_MONITORING"}
+{"text":"Map the competitive landscape around Confluent","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Hi, explain the architecture of Terraform","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"continuously watch for news about anthropic","intent":"RESEARCH_MONITORING"}
+{"text":"So how many enterprises have adopted Prefect.","intent":"MARKET_RESEARCH"}
+{"text":"Uh what programming language is Go written in.","intent":"FACT_LOOKUP"}
+{"text":"um who are the main competitors for unity in game development engines","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what's the founder's name of amazon","intent":"FACT_LOOKUP"}
+{"text":"Who are the leading research groups working on differential privacy?","intent":"LITERATURE_REVIEW"}
+{"text":"what's the positioning of palantir compared to other data analytics firms","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What's the process for satellite communication?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"what is the internal design of weights & biases","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Does vLLM support Next.js natively","intent":"FACT_LOOKUP"}
+{"text":"Contrast PostgreSQL and MongoDB's scaling capabilities.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"who are the biggest players in the low-code platform market by revenue","intent":"MARKET_RESEARCH"}
+{"text":"Follow Hugging Face Transformers and notify me of breaking changes for my team.","intent":"RESEARCH_MONITORING"}
+{"text":"What is the minimum Python version for Dask?","intent":"FACT_LOOKUP"}
+{"text":"Can you find me a review of the literature on the effectiveness of different marketing strategies?","intent":"LITERATURE_REVIEW"}
+{"text":"Which companies are Confluent's fastest growing rivals","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Who competes with Elastic in speech analytics market?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Could you what license does Terraform use","intent":"FACT_LOOKUP"}
+{"text":"can you compare the energy efficiency of intel versus amd processors","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"describe the memory model of prefect","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Migrating from Istio to Prefect: how do they compare.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What's the latest on autonomous vehicles?","intent":"GENERAL_RESEARCH"}
+{"text":"What is streaming data pipelines?","intent":"GENERAL_RESEARCH"}
+{"text":"What is Oracle's strategy to gain market share in cloud infrastructure?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Research on personalized medicine.","intent":"LITERATURE_REVIEW"}
+{"text":"what is the projected growth of the vector database market through 2030 for a report","intent":"MARKET_RESEARCH"}
+{"text":"How does the SpaceX Starship engine achieve its thrust?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What's Stripe's competitive advantage in payments?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"List key papers on diffusion models from 2022.","intent":"LITERATURE_REVIEW"}
+{"text":"Contrast the capabilities of Jira and Asana for project management in tech teams.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"so what year did google acquire youtube","intent":"FACT_LOOKUP"}
+{"text":"Is Weights & Biases faster than Envoy?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"How does DuckDB handle speech recognition?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Which customers does Weaviate win against Databricks?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Can you provide a market forecast for renewable energy storage technologies?","intent":"MARKET_RESEARCH"}
+{"text":"what's the standard port for http","intent":"FACT_LOOKUP"}
+{"text":"What's the market size for educational technology platforms post-pandemic?","intent":"MARKET_RESEARCH"}
+{"text":"Profile Figma and its top rivals","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Tell me about the evolution of natural language processing.","intent":"GENERAL_RESEARCH"}
+{"text":"Recent developments in Terraform thanks.","intent":"GENERAL_RESEARCH"}
+{"text":"Does Apache Iceberg support Langfuse natively","intent":"FACT_LOOKUP"}
+{"text":"What is the name of the founder of Amazon?","intent":"FACT_LOOKUP"}
+{"text":"track any advancements in natural language processing models like gpt-4","intent":"RESEARCH_MONITORING"}
+{"text":"so what is edge computing","intent":"GENERAL_RESEARCH"}
+{"text":"is postgresql open source","intent":"FACT_LOOKUP"}
+{"text":"Describe the internal workings of a solid-state drive.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"what is the internal design of pgvector","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"what's the competitive advantage of moderna's mrna platform","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Competitors to DeepMind in AI research?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What are the drivers and risks in the speech analytics market?","intent":"MARKET_RESEARCH"}
+{"text":"quick question which company maintains docker swarm","intent":"FACT_LOOKUP"}
+{"text":"are there any good survey papers on retrieval augmented generation","intent":"LITERATURE_REVIEW"}
+{"text":"Please notify me of new patents filed by Google in AI.","intent":"RESEARCH_MONITORING"}
+{"text":"I need you to how many enterprises have adopted AutoGen.","intent":"MARKET_RESEARCH"}
+{"text":"Can you find any surveys on the adoption rates of cloud computing in small businesses?","intent":"LITERATURE_REVIEW"}
+{"text":"Detail the operation of a neural network layer.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What partnerships has Elastic announced versus Cerebras?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what are the key papers on reinforcement learning for robotics","intent":"LITERATURE_REVIEW"}
+{"text":"Pricing levels for cloud storage.","intent":"MARKET_RESEARCH"}
+{"text":"i want to learn about protein structure prediction","intent":"GENERAL_RESEARCH"}
+{"text":"What are the trade-offs between using a monolithic architecture and microservices?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What are the landmark papers in robotics foundation models","intent":"LITERATURE_REVIEW"}
+{"text":"Alert me to any new research papers published on federated learning.","intent":"RESEARCH_MONITORING"}
+{"text":"Find me papers on the use of computer vision in agricultural applications.","intent":"LITERATURE_REVIEW"}
+{"text":"how does weaviate guarantee consistency","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"I want to be updated on the progress of the James Webb Space Telescope.","intent":"RESEARCH_MONITORING"}
+{"text":"Can you summarize the research on cybersecurity threats in critical infrastructure?","intent":"LITERATURE_REVIEW"}
+{"text":"what's the default branch name in git now","intent":"FACT_LOOKUP"}
+{"text":"what are the landmark papers in synthetic data generation","intent":"LITERATURE_REVIEW"}
+{"text":"Okay who are the new entrants challenging Databricks please","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"So who competes with Grafana Labs in API management market","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what share of companies use small language models today","intent":"MARKET_RESEARCH"}
+{"text":"Is Docker free for personal use?","intent":"FACT_LOOKUP"}
+{"text":"Competitors to SpaceX in satellite internet?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Map the research landscape of edge AI.","intent":"LITERATURE_REVIEW"}
+{"text":"who is the ceo of elastic","intent":"FACT_LOOKUP"}
+{"text":"what's the official name of the company that makes windows","intent":"FACT_LOOKUP"}
+{"text":"i need you to alert me when confluent announces anything new","intent":"RESEARCH_MONITORING"}
+{"text":"when was the first commercial internet service available","intent":"FACT_LOOKUP"}
+{"text":"What are OpenAI's offerings that threaten New Relic?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Explain the core of a generative adversarial network.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Discuss the technical merits of Python versus R for statistical analysis.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"send me updates whenever the edge ai chip market shifts","intent":"RESEARCH_MONITORING"}
+{"text":"what have researchers found about retrieval reranking in the last two years","intent":"LITERATURE_REVIEW"}
+{"text":"What are the key market trends for enterprise SaaS solutions?","intent":"MARKET_RESEARCH"}
+{"text":"Alert me when Hugging Face announces anything new.","intent":"RESEARCH_MONITORING"}
+{"text":"What are the technical implications of choosing between a relational and a graph database?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Growth rate of quantum computing?","intent":"MARKET_RESEARCH"}
+{"text":"how is snowflake differentiating from zendesk","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Unpack the internal logic of Google's PageRank algorithm.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Alert me to any significant news from Tesla's AI division.","intent":"RESEARCH_MONITORING"}
+{"text":"Tell me about the future of work.","intent":"GENERAL_RESEARCH"}
+{"text":"what are the key differences between r and python for data science","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What is the capital of France?","intent":"FACT_LOOKUP"}
+{"text":"What's the research consensus on the benefits of mindfulness practices?","intent":"LITERATURE_REVIEW"}
+{"text":"what are the main trends in the cloud data warehouse market","intent":"MARKET_RESEARCH"}
+{"text":"give me an overview of causal inference","intent":"GENERAL_RESEARCH"}
+{"text":"What is the default port for HTTP?","intent":"FACT_LOOKUP"}
+{"text":"Studies on the impact of 5G on smart cities.","intent":"LITERATURE_REVIEW"}
+{"text":"What is the projected growth of the API management market through 2030?","intent":"MARKET_RESEARCH"}
+{"text":"what's the state of the art in natural language generation for code","intent":"LITERATURE_REVIEW"}
+{"text":"Send me updates whenever the MLOps platform market shifts","intent":"RESEARCH_MONITORING"}
+{"text":"Who are the main competitors of MongoDB Inc for my team?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Who is the CEO of Datadog?","intent":"FACT_LOOKUP"}
+{"text":"Which is better for production, Apache Iceberg or WebAssembly?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"please explain the design tradeoffs inside elasticsearch","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"quick question which is better for production memcached or docker swarm","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Can you tell me about the growth rate of the quantum computing market?","intent":"MARKET_RESEARCH"}
+{"text":"um what's the core mechanism behind a solid-state drive","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"how fast is the conversational ai market growing","intent":"MARKET_RESEARCH"}
+{"text":"who are the leading research groups working on speculative decoding","intent":"LITERATURE_REVIEW"}
+{"text":"what's the deal with sql versus nosql databases","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Size the synthetic data market for the past year.","intent":"MARKET_RESEARCH"}
+{"text":"hey how does new relic's go-to-market compare with netlify","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Profile OpenAI and its top rivals","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Research on blockchain for supply chain.","intent":"LITERATURE_REVIEW"}
+{"text":"Explain the principles of a nuclear fusion reactor.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What is the maximum context length of CrewAI?","intent":"FACT_LOOKUP"}
+{"text":"did apple ever make a printer","intent":"FACT_LOOKUP"}
+{"text":"Is C++ object-oriented?","intent":"FACT_LOOKUP"}
+{"text":"How do virtual machines and containers differ in terms of resource isolation and overhead?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What does the research suggest about the future of work in an AI-driven economy?","intent":"LITERATURE_REVIEW"}
+{"text":"how many enterprises have adopted snowflake","intent":"MARKET_RESEARCH"}
+{"text":"MongoDB versus ClickHouse: throughput and license.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"which is better for production envoy or jax","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Tell me about the concept of digital twins.","intent":"GENERAL_RESEARCH"}
+{"text":"Contrast JAX with LangGraph and Qdrant","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What's the official name of the company that owns Instagram?","intent":"FACT_LOOKUP"}
+{"text":"What are the main challenges in developing self-driving cars?","intent":"GENERAL_RESEARCH"}
+{"text":"Hi, what are the main trends in the low-code platform market.","intent":"MARKET_RESEARCH"}
+{"text":"Please provide a literature review on the application of blockchain in supply chain management.","intent":"LITERATURE_REVIEW"}
+{"text":"Which benchmarks are used in federated learning research?","intent":"LITERATURE_REVIEW"}
+{"text":"are there any good survey papers on agent memory","intent":"LITERATURE_REVIEW"}
+{"text":"compare the rendering engines of chrome and firefox","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Hi, how many employees does Shopify have","intent":"FACT_LOOKUP"}
+{"text":"Which offers better performance: Nginx or Apache?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Pros and cons of Docker Swarm compared to Kafka.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Which companies are New Relic's fastest growing rivals as soon as possible?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Detail the operation of a distributed ledger.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How does Stripe differentiate from PayPal in payment processing?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Hey what is going on with federated learning lately","intent":"GENERAL_RESEARCH"}
+{"text":"Review the academic literature on observability for LLM apps","intent":"LITERATURE_REVIEW"}
+{"text":"Deep dive into how Airflow stores data","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What partnerships has Confluent announced versus Canva?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Right so PyTorch versus Zig: tooling maturity and throughput.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"uh where is netlify headquartered","intent":"FACT_LOOKUP"}
+{"text":"Benchmark Qdrant against Next.js.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"i need to know what the research says about blockchain in supply chain management","intent":"LITERATURE_REVIEW"}
+{"text":"What are the competitive threats to Zoom in video conferencing?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"Compare Unity and Unreal Engine for game development.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"what is natural language processing","intent":"GENERAL_RESEARCH"}
+{"text":"How does a large language model generate text?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What are the key differences between React and Angular for front-end development?","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"tell me about the scalability of mongodb versus postgresql","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Right so should we pick vLLM or Nomad for serverless computing.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Tell me about Snowflake","intent":"GENERAL_RESEARCH"}
+{"text":"Look into differential privacy and report back once.","intent":"GENERAL_RESEARCH"}
+{"text":"Quick question, what is the package name of ONNX Runtime on PyPI","intent":"FACT_LOOKUP"}
+{"text":"What programming language is FastAPI written in?","intent":"FACT_LOOKUP"}
+{"text":"What are the internals of LangGraph's query planner?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"track every new serverless computing paper that appears","intent":"RESEARCH_MONITORING"}
+{"text":"alert me to new cybersecurity threats targeting financial institutions","intent":"RESEARCH_MONITORING"}
+{"text":"can you describe the process of protein folding in detail","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What's new with renewable energy technologies?","intent":"GENERAL_RESEARCH"}
+{"text":"So basically what is prompt injection defenses.","intent":"GENERAL_RESEARCH"}
+{"text":"Is pgvector faster than React","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What are analysts saying about the MLOps platform market?","intent":"MARKET_RESEARCH"}
+{"text":"What's the current market cap of NVIDIA?","intent":"FACT_LOOKUP"}
+{"text":"give me some figures on the global market for personalized medicine","intent":"MARKET_RESEARCH"}
+{"text":"so basically i'd like ongoing tracking of mixture of experts","intent":"RESEARCH_MONITORING"}
+{"text":"Please which company maintains Zig.","intent":"FACT_LOOKUP"}
+{"text":"What are the projected growth trends for machine learning in drug discovery?","intent":"MARKET_RESEARCH"}
+{"text":"tell me about the general idea of sustainable investing","intent":"GENERAL_RESEARCH"}
+{"text":"i want weekly updates on diffusion models","intent":"RESEARCH_MONITORING"}
+{"text":"Summarize the main approaches to multimodal learning in the literature.","intent":"LITERATURE_REVIEW"}
+{"text":"Compare the features of Jira and Trello for project management.","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Describe the core principles behind radar technology.","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Databricks' competitive edge?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"i'd like ongoing tracking of edge ai","intent":"RESEARCH_MONITORING"}
+{"text":"Which segments of the cloud data warehouse market are growing fastest?","intent":"MARKET_RESEARCH"}
+{"text":"I'd like ongoing tracking of diffusion models","intent":"RESEARCH_MONITORING"}
+{"text":"What programming language is Weights & Biases written in","intent":"FACT_LOOKUP"}
+{"text":"Please what regions lead the edge AI chip market thanks","intent":"MARKET_RESEARCH"}
+{"text":"so uh how does large language model inference actually work under the hood","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How does a search engine index content?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"What is going on with model quantization lately","intent":"GENERAL_RESEARCH"}
+{"text":"How is Netlify differentiating from Anthropic?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What is the license type for the Linux kernel?","intent":"FACT_LOOKUP"}
+{"text":"pulumi or sqlite which one scales better thanks","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Can you monitor the adoption rates of 5G technology globally?","intent":"RESEARCH_MONITORING"}
+{"text":"What is agent memory?","intent":"GENERAL_RESEARCH"}
+{"text":"so what does the acronym pytorch stand for","intent":"FACT_LOOKUP"}
+{"text":"side by side comparison of ray and sqlite as soon as possible","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"What is the chemical symbol for water?","intent":"FACT_LOOKUP"}
+{"text":"can you how is hugging face transformers implemented","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Which companies are Vercel's fastest growing rivals?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"what is the projected growth of the api management market through 2030 if you can","intent":"MARKET_RESEARCH"}
+{"text":"Can you deep dive into how Go stores data?","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"How does RabbitMQ stack up against Pulsar in terms of ecosystem","intent":"TECHNOLOGY_COMPARISON"}
+{"text":"Monitor the latest in blockchain scalability.","intent":"RESEARCH_MONITORING"}
+{"text":"so how does amazon web services lambda function execute code","intent":"TECHNICAL_DEEP_DIVE"}
+{"text":"Survey the state of the art in multi-agent systems.","intent":"LITERATURE_REVIEW"}
+{"text":"are there any good literature reviews on data privacy in big data analytics","intent":"LITERATURE_REVIEW"}
+{"text":"What are the emerging market trends in sustainable agriculture technology?","intent":"MARKET_RESEARCH"}
+{"text":"Who are the main rivals for SpaceX in satellite internet?","intent":"COMPETITIVE_INTELLIGENCE"}
+{"text":"What's Adobe's subscription model success?","intent":"COMPETITIVE_INTELLIGENCE"}

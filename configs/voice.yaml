@@ -1,0 +1,10 @@
+# Voice path (optional). Models are Gemini audio models reachable with GOOGLE_API_KEY.
+stt_model: gemini-2.5-flash
+tts_model: gemini-2.5-flash-preview-tts
+voice: Kore
+livekit:
+  url: ws://localhost:7880
+  room: research-os
+  silence_ms: 800        # quiet needed to end an utterance
+  min_speech_ms: 300
+  energy_threshold: 400  # RMS on PCM16

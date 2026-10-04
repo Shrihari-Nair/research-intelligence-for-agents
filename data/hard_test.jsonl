@@ -1,0 +1,63 @@
+{"text": "is langgraph open source or do i need a paid license", "intent": "FACT_LOOKUP"}
+{"text": "quick one, which version of pytorch added torch compile", "intent": "FACT_LOOKUP"}
+{"text": "um do you know who maintains the qdrant client for python", "intent": "FACT_LOOKUP"}
+{"text": "what's the default context window of claude 3 haiku", "intent": "FACT_LOOKUP"}
+{"text": "just confirm for me whether kafka is written in java or scala", "intent": "FACT_LOOKUP"}
+{"text": "which year did hugging face raise its series d", "intent": "FACT_LOOKUP"}
+{"text": "what port does postgres listen on by default and does it support ipv6", "intent": "FACT_LOOKUP"}
+{"text": "pinecone or qdrant for our retrieval layer, we care about p99 latency", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "should we move from airflow to dagster given how we handle backfills", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "how is vllm different from tensorrt-llm when serving at scale", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "rust vs go for a high throughput proxy, which one wins", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "i keep hearing about crewai and autogen, how do they actually differ", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "weigh grpc against graphql for internal service calls", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "which is the better fit for streaming, kafka or pulsar", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "what have people published on speculative decoding in the last two years", "intent": "LITERATURE_REVIEW"}
+{"text": "are there surveys covering rag evaluation methods", "intent": "LITERATURE_REVIEW"}
+{"text": "find me the key papers behind mixture of experts routing", "intent": "LITERATURE_REVIEW"}
+{"text": "what does the academic work say about prompt injection defenses", "intent": "LITERATURE_REVIEW"}
+{"text": "which studies compare reranking approaches in retrieval", "intent": "LITERATURE_REVIEW"}
+{"text": "collect research on small speech models for edge devices", "intent": "LITERATURE_REVIEW"}
+{"text": "i need a reading list covering agent memory architectures", "intent": "LITERATURE_REVIEW"}
+{"text": "how does langgraph checkpointing actually persist state", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "walk me through what happens inside kafka when a broker fails", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "explain how paged attention manages kv cache memory", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "how does raft elect a leader and why does it need randomized timeouts", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "so how does duckdb execute a query vectorized", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "what is going on under the hood when pgvector builds an hnsw index", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "break down how setfit turns a few examples into a classifier", "intent": "TECHNICAL_DEEP_DIVE"}
+{"text": "how is databricks positioned against snowflake right now", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "who is gaining ground on nvidia in inference chips", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "what is anthropic doing differently from openai on enterprise sales", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "compare datadog and grafana labs as businesses, pricing and customers", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "which startups are going after pinecone's customers", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "um what are cohere's moves against mistral in europe", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "size up vercel's rivals for me", "intent": "COMPETITIVE_INTELLIGENCE"}
+{"text": "how much is the vector database market worth and where is it heading", "intent": "MARKET_RESEARCH"}
+{"text": "what share of enterprises run llm apps in production today", "intent": "MARKET_RESEARCH"}
+{"text": "give me dated figures on edge ai chip revenue", "intent": "MARKET_RESEARCH"}
+{"text": "is demand for observability tooling still growing and by how much", "intent": "MARKET_RESEARCH"}
+{"text": "what are analysts forecasting for ai coding assistants through 2030", "intent": "MARKET_RESEARCH"}
+{"text": "typical pricing bands for enterprise search platforms", "intent": "MARKET_RESEARCH"}
+{"text": "how many companies adopted mlops platforms in the last year", "intent": "MARKET_RESEARCH"}
+{"text": "keep me posted whenever langgraph ships a breaking change", "intent": "RESEARCH_MONITORING"}
+{"text": "i want a weekly digest of new papers on agent evaluation", "intent": "RESEARCH_MONITORING"}
+{"text": "watch openai's changelog and flag anything about pricing", "intent": "RESEARCH_MONITORING"}
+{"text": "let me know if anything new comes out on small language models from now on", "intent": "RESEARCH_MONITORING"}
+{"text": "um can you track new funding rounds in vector databases for the next few months", "intent": "RESEARCH_MONITORING"}
+{"text": "monitor cve advisories for redis and report changes", "intent": "RESEARCH_MONITORING"}
+{"text": "follow mistral's model releases and tell me each time", "intent": "RESEARCH_MONITORING"}
+{"text": "tell me about langgraph", "intent": "GENERAL_RESEARCH"}
+{"text": "what's the latest on speculative decoding", "intent": "GENERAL_RESEARCH"}
+{"text": "what is new in the world of vector databases", "intent": "GENERAL_RESEARCH"}
+{"text": "recent developments in llm evaluation", "intent": "GENERAL_RESEARCH"}
+{"text": "give me the gist of what's happening with robotics foundation models", "intent": "GENERAL_RESEARCH"}
+{"text": "i'm new to knowledge graphs, where do i even start", "intent": "GENERAL_RESEARCH"}
+{"text": "what's going on with anthropic lately", "intent": "GENERAL_RESEARCH"}
+{"text": "explain duckdb to me and why people like it", "intent": "GENERAL_RESEARCH"}
+{"text": "research ollama for me", "intent": "GENERAL_RESEARCH"}
+{"text": "compare langgraph and crewai and also tell me who maintains each", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "track new papers on rag and summarize the best recent ones", "intent": "RESEARCH_MONITORING"}
+{"text": "how big is the llm observability market and who are the main vendors", "intent": "MARKET_RESEARCH"}
+{"text": "is vllm faster than tgi, and how does its scheduler work", "intent": "TECHNOLOGY_COMPARISON"}
+{"text": "what does the literature say about how transformers attend to long context", "intent": "LITERATURE_REVIEW"}

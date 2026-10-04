@@ -1,0 +1,11 @@
+# Execution budget profiles (enforced from M14). Workflows pick a profile in configs/workflows.yaml.
+profiles:
+  small:  {max_steps: 10, max_tool_calls: 14, max_searches: 4,  max_llm_calls: 12, max_runtime_seconds: 120}
+  medium: {max_steps: 18, max_tool_calls: 30, max_searches: 8,  max_llm_calls: 24, max_runtime_seconds: 300}
+  large:  {max_steps: 28, max_tool_calls: 60, max_searches: 16, max_llm_calls: 45, max_runtime_seconds: 600}
+approvals:                       # human-in-the-loop (M22). Used when the API/service enables approvals.
+  max_searches: 6                # a plan estimated above ANY of these needs approval before it runs
+  max_sources: 30
+  max_llm_calls: 12
+  publish: false                 # also ask before releasing the finished report
+  expiry_seconds: 900            # a pending approval expires (and the run is CANCELLED)
