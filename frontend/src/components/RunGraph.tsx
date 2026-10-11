@@ -1,12 +1,12 @@
 "use client";
-import { useMemo } from "react";
-import { Background, Controls, Handle, Position, ReactFlow, type Edge, type Node, type NodeProps } from "@xyflow/react";
+import { useEffect, useMemo } from "react";
+import { Background, Controls, Handle, Position, ReactFlow, useReactFlow, type Edge, type Node, type NodeProps } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import type { RunDetail, RunEvent } from "@/api/client";
 
 type Status = "pending" | "running" | "succeeded" | "failed" | "skipped";
 const FILL: Record<Status, string> = {
-  pending: "#e2e8f0", running: "#bfdbfe", succeeded: "#bbf7d0", failed: "#fecaca", skipped: "#fde68a",
+  pending: "#0f1613", running: "#1b2a0a", succeeded: "#0b2a1e", failed: "#2c1117", skipped: "#2b2410",
 };
 
 function StageNode({ data }: NodeProps) {
@@ -15,16 +15,17 @@ function StageNode({ data }: NodeProps) {
     <div
       data-testid={`node-${d.label}`}
       data-status={d.status}
-      className={`rounded-md border px-3 py-1.5 text-xs shadow-sm ${d.kind === "recovery" ? "border-amber-400" : "border-slate-400"}`}
-      style={{ background: FILL[d.status], minWidth: 120 }}
+      className={`rounded-xl border px-3.5 py-2 font-mono text-xs text-fg backdrop-blur transition-all duration-500 ${d.status === "running" ? "animate-pulse" : ""} ${d.kind === "recovery" ? "border-dashed" : ""}`}
+      style={{ background: FILL[d.status], borderColor: EDGE[d.status], boxShadow: d.status === "pending" ? "none" : `0 0 22px -6px ${EDGE[d.status]}`, minWidth: 124 }}
     >
       <Handle type="target" position={Position.Left} />
-      <div className="font-semibold">{d.label}</div>
-      {d.sub && <div className="text-[10px] text-slate-600">{d.sub}</div>}
+      <div className="font-semibold tracking-tight">{d.label}</div>
+      {d.sub && <div className="text-[10px] text-fg-dim">{d.sub}</div>}
       <Handle type="source" position={Position.Right} />
     </div>
   );
 }
+const EDGE: Record<Status, string> = { pending: "#2a3730", running: "#c6ff3d", succeeded: "#34d399", failed: "#fb7185", skipped: "#fcd34d" };
 const nodeTypes = { stage: StageNode };
 
 function stageStatus(events: RunEvent[], node: string): Status {
@@ -39,7 +40,7 @@ function stageStatus(events: RunEvent[], node: string): Status {
 }
 
 export function buildGraph(detail: RunDetail, events: RunEvent[]): { nodes: Node[]; edges: Edge[] } {
-  const X = 230, Y = 78;
+  const X = 210, Y = 78;
   const nodes: Node[] = [];
   const edges: Edge[] = [];
   const add = (id: string, label: string, col: number, row: number, status: Status, sub?: string, kind?: string) =>
@@ -96,12 +97,20 @@ export function buildGraph(detail: RunDetail, events: RunEvent[]): { nodes: Node
   return { nodes, edges };
 }
 
+/** Refit once nodes have been measured; the initial fitView runs against estimated sizes and clips the ends. */
+function Refit({ n }: { n: number }) {
+  const { fitView } = useReactFlow();
+  useEffect(() => { const t = setTimeout(() => fitView({ padding: 0.04, duration: 300 }), 120); return () => clearTimeout(t); }, [n, fitView]);
+  return null;
+}
+
 export function RunGraph({ detail, events }: { detail: RunDetail; events: RunEvent[] }) {
   const { nodes, edges } = useMemo(() => buildGraph(detail, events), [detail, events]);
   return (
-    <div className="h-[460px] rounded-lg border bg-white" data-testid="run-graph">
-      <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} fitView fitViewOptions={{ padding: 0.15 }} nodesDraggable={false} proOptions={{ hideAttribution: true }}>
-        <Background />
+    <div className="panel h-[380px] overflow-hidden rounded-2xl" data-testid="run-graph">
+      <ReactFlow minZoom={0.2} nodes={nodes} edges={edges} nodeTypes={nodeTypes} fitView fitViewOptions={{ padding: 0.04 }} nodesDraggable={false} proOptions={{ hideAttribution: true }}>
+        <Background color="#2a3730" gap={22} size={1.2} />
+        <Refit n={nodes.length} />
         <Controls showInteractive={false} />
       </ReactFlow>
     </div>

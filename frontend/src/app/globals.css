@@ -1,3 +1,109 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root { color-scheme: dark; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #070a09;
+  background-image:
+    radial-gradient(900px 520px at 85% -8%, rgba(198, 255, 61, 0.11), transparent 60%),
+    radial-gradient(700px 460px at -6% 12%, rgba(40, 255, 170, 0.07), transparent 60%),
+    linear-gradient(rgba(214, 255, 230, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(214, 255, 230, 0.035) 1px, transparent 1px);
+  background-size: auto, auto, 56px 56px, 56px 56px;
+  background-attachment: fixed;
+  color: #e9efe9;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* film grain over everything, breaks the digital flatness */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.07;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+::selection { background: #c6ff3d; color: #070a09; }
+
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+*:focus-visible { outline: 2px solid #c6ff3d; outline-offset: 2px; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #1f2b26; border-radius: 8px; border: 2px solid #070a09; }
+::-webkit-scrollbar-thumb:hover { background: #2c3d35; }
+
+/* ---------- panels ---------- */
+.panel {
+  position: relative;
+  background: linear-gradient(180deg, rgba(20, 28, 25, 0.82), rgba(11, 16, 14, 0.82));
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(214, 255, 230, 0.09);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.06) inset, 0 24px 60px -30px rgba(0, 0, 0, 0.9);
+}
+/* spotlight border that follows the cursor (vars set in Card) */
+.panel::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: radial-gradient(260px circle at var(--mx, -200px) var(--my, -200px), rgba(198, 255, 61, 0.85), transparent 65%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.panel:hover::before { opacity: 1; }
+
+/* animated conic border for the hero input */
+.glow-frame { position: relative; border-radius: 1.5rem; padding: 1.5px; overflow: hidden; }
+.glow-frame::before {
+  content: "";
+  position: absolute;
+  inset: -150%;
+  background: conic-gradient(from 0deg, transparent 0 55%, #c6ff3d 75%, #8bffd0 85%, transparent 100%);
+  animation: spin-slow 5s linear infinite;
+}
+.glow-frame > * { position: relative; border-radius: calc(1.5rem - 1.5px); }
+
+/* gradient headline text */
+.text-volt-grad {
+  background: linear-gradient(100deg, #c6ff3d 10%, #8bffd0 55%, #e9efe9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.text-outline { -webkit-text-stroke: 1.5px rgba(233, 239, 233, 0.55); color: transparent; }
+
+.skeleton {
+  background: linear-gradient(100deg, #111915 30%, #1d2823 50%, #111915 70%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s linear infinite;
+}
+
+/* ---------- react-flow, dark + volt ---------- */
+.react-flow { --xy-background-color: transparent; --xy-edge-stroke: #3a4a42; }
+.react-flow__edge-path { stroke: #3a4a42; stroke-width: 1.5; }
+.react-flow__edge.animated .react-flow__edge-path { stroke: #c6ff3d; }
+.react-flow__handle { background: #3a4a42; border: 0; width: 6px; height: 6px; }
+.react-flow__controls { border: 1px solid rgba(214, 255, 230, 0.1); border-radius: 10px; overflow: hidden; box-shadow: none; }
+.react-flow__controls-button { background: #0e1512; border-bottom: 1px solid rgba(214, 255, 230, 0.08); fill: #9aa79f; }
+.react-flow__controls-button:hover { background: #1a231f; fill: #c6ff3d; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

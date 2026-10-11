@@ -1,6 +1,8 @@
 # Research Intelligence OS
 
-![demo](docs/demo/demo.gif)
+![Research Intelligence OS walkthrough](docs/demo/walkthrough.gif)
+
+<sub>24-second walkthrough: ask, run, evidence, approval. [Full quality MP4 with sound](docs/demo/walkthrough.mp4).</sub>
 
 ![status](https://img.shields.io/badge/tests-600%2B%20passing-brightgreen) ![python](https://img.shields.io/badge/python-3.10%2B-blue) ![license](https://img.shields.io/badge/license-MIT-green)
 
@@ -19,7 +21,9 @@ everything: tool permissions and schemas, budgets, retries, failure recovery, hu
 
 ## Demo
 
-A real run in the real UI (live Gemini and web sources, started with `docker compose up`): [full recording (webm, 3 MB)](docs/demo/demo.webm). Screenshots:
+A real run in the real UI (live Gemini and web sources, started with `docker compose up`): [full recording (webm, 3 MB)](docs/demo/demo.webm). Screenshots (the animation below is that run in the earlier light UI):
+
+![demo](docs/demo/demo.gif)
 
 | Execution graph, router decision, budget | Evidence with highlighted verbatim quote | Cited report |
 |---|---|---|

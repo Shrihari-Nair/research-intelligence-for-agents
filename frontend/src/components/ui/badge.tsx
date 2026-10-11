@@ -1,14 +1,14 @@
 import { cn } from "@/lib/utils";
 
 const TONES: Record<string, string> = {
-  green: "bg-green-100 text-green-800 border-green-200",
-  red: "bg-red-100 text-red-800 border-red-200",
-  amber: "bg-amber-100 text-amber-800 border-amber-200",
-  blue: "bg-blue-100 text-blue-800 border-blue-200",
-  slate: "bg-slate-100 text-slate-700 border-slate-200",
-  violet: "bg-violet-100 text-violet-800 border-violet-200",
+  green: "bg-emerald-400/10 text-emerald-300 border-emerald-400/25",
+  red: "bg-rose-500/10 text-rose-300 border-rose-400/25",
+  amber: "bg-amber-400/10 text-amber-300 border-amber-400/25",
+  blue: "bg-volt/10 text-volt border-volt/30",
+  slate: "bg-white/5 text-fg-dim border-white/10",
+  violet: "bg-fuchsia-400/10 text-fuchsia-300 border-fuchsia-400/25",
 };
 
 export function Badge({ tone = "slate", className, children }: { tone?: keyof typeof TONES | string; className?: string; children: React.ReactNode }) {
-  return <span className={cn("inline-flex items-center rounded-full border px-2 py-0.5 text-xs font-medium", TONES[tone] ?? TONES.slate, className)}>{children}</span>;
+  return <span className={cn("inline-flex items-center gap-1 rounded-md border px-2 py-0.5 font-mono text-[11px] font-medium tracking-wide", TONES[tone] ?? TONES.slate, className)}>{children}</span>;
 }

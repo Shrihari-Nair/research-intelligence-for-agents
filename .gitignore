@@ -109,3 +109,11 @@ Thumbs.db
 *.tmp
 tmp/
 docs/demo/tmp/
+
+# ============================================================
+# Agent tooling and generated video projects (installed skills, brag renders)
+# ============================================================
+.agents/
+.claude/
+skills-lock.json
+brag-output/
