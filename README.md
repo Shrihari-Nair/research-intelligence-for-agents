@@ -21,15 +21,13 @@ everything: tool permissions and schemas, budgets, retries, failure recovery, hu
 
 ## Demo
 
-A real run in the real UI (live Gemini and web sources, started with `docker compose up`): [full recording (webm, 3 MB)](docs/demo/demo.webm). Screenshots (the animation below is that run in the earlier light UI):
+The current UI, running a request end to end (offline demo LLM; the live Gemini and web-source setup is the same screens):
 
-![demo](docs/demo/demo.gif)
-
-| Execution graph, router decision, budget | Evidence with highlighted verbatim quote | Cited report |
-|---|---|---|
-| ![execution](docs/demo/frames/04-done.png) | ![evidence](docs/demo/frames/05-evidence.png) | ![report](docs/demo/frames/06-report.png) |
-
-Re-record with `cd frontend && node record_demo.mjs && cd .. && python -m scripts.make_demo_gif`.
+| Ask | Run: graph, router decision, budget |
+|---|---|
+| ![ask](docs/demo/frames/01-ask.png) | ![run](docs/demo/frames/02-run.png) |
+| **Evidence with highlighted verbatim quote** | **Cited report** |
+| ![evidence](docs/demo/frames/03-evidence.png) | ![report](docs/demo/frames/04-report.png) |
 
 ## What it does
 
